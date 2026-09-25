@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-sailscq
+Exec=harbour-sailscq
+Name=SailSCQ
+Name[de]=SailSCQ
+Comment=Control Soundcore headphones (based on OpenSCQ30)
+Comment[de]=Soundcore-Kopfhörer steuern (basiert auf OpenSCQ30)
+
+[X-Sailjail]
+# Must match setOrganizationName()/setApplicationName() in src/harbour-sailscq.cpp
+OrganizationName=org.sailscq
+ApplicationName=sailscq
+# Bluetooth: talk to BlueZ (list paired devices, RFCOMM connection of the CLI)
+Permissions=Bluetooth
+# If the RFCOMM connection fails inside the sandbox, test with:
+# Sandboxing=Disabled

@@ -1,0 +1,44 @@
+// SPDX-FileCopyrightText: 2026 Denis
+// SPDX-License-Identifier: GPL-3.0-or-later
+import QtQuick 2.0
+import Sailfish.Silica 1.0
+
+Dialog {
+    id: dialog
+
+    property string title
+    property string label
+    property string description
+    property alias text: field.text
+
+    canAccept: field.text.trim().length > 0
+
+    Column {
+        width: parent.width
+
+        DialogHeader {
+            title: dialog.title
+        }
+
+        TextField {
+            id: field
+            width: parent.width
+            label: dialog.label
+            placeholderText: dialog.label
+            focus: true
+            EnterKey.enabled: dialog.canAccept
+            EnterKey.iconSource: "image://theme/icon-m-enter-accept"
+            EnterKey.onClicked: dialog.accept()
+        }
+
+        Label {
+            visible: dialog.description.length > 0
+            x: Theme.horizontalPageMargin
+            width: parent.width - 2 * Theme.horizontalPageMargin
+            text: dialog.description
+            wrapMode: Text.Wrap
+            font.pixelSize: Theme.fontSizeSmall
+            color: Theme.secondaryHighlightColor
+        }
+    }
+}

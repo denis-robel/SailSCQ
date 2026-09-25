@@ -1,0 +1,97 @@
+* Thu Sep 24 2026 Denis <denis@localhost> 0.14-1
+- Neue Seite "Über SailSCQ" (Pull-down-Menü der Geräteverwaltung): Version,
+  enthaltene OpenSCQ30-Version, Credits, Lizenz, Links
+- Lizenzseite mit dem vollständigen GPL-3.0-Text
+- App-Version wird beim Bauen aus der Spec übernommen
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.13-1
+- Fix: Ladezustand wurde nie erkannt (die CLI meldet "Yes"/"No", nicht "true"/"false");
+  auf der Geräteseite erscheint jetzt "lädt", in der Geräteinformation "Ja"/"Nein"
+- TWS-Status und Host-Gerät auf Deutsch (Verbunden/Getrennt, Links/Rechts)
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.12-1
+- Werte werden alle 2 Minuten automatisch aktualisiert, solange die App offen ist,
+  und sofort beim Zurückkehren in die App
+- Uhrzeit der letzten Abfrage unter den Akkuständen
+- Akkuleiste zeigt die Stufen des Geräts (z. B. 5 Segmente bei der Liberty 4 NC)
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.11-1
+- Umbenannt in SailSCQ (Paket harbour-sailscq, ersetzt harbour-openscq30)
+- Eigener Organisationsname org.sailscq
+- Lizenz GPL-3.0-or-later hinzugefügt (LICENSE, SPDX-Vermerke, %license im RPM)
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.10-1
+- Neue Seite "Unterstützte Geräte" (Pull-down-Menü der Geräteverwaltung):
+  alle Modelle der installierten CLI, nach Bauform gruppiert, mit Suche
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.9-1
+- openscq30-CLI auf v2.12.0 aktualisiert (GPG-Signatur des Entwicklers geprüft)
+- Neuer Einstellungstyp "hueColorPicker": Farbwahl für die Beleuchtung (Soundcore V20i)
+- Deutsche Namen für die neuen Einstellungen (Beleuchtung, Lautstärkebalance,
+  Hörmodus, Stopp-Timer, Wecker, ...)
+- Neue Modelle: V20i, Life P2 Mini, C50i, P31i, R60i NC, Sleep A30
+- tools/update-cli.sh braucht die GitHub-API nicht mehr und prüft die GPG-Signatur
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.8-1
+- openscq30-CLI auf v2.9.0 aktualisiert (offizielles Release, SHA-256 geprüft)
+- Unterstützung für den neuen Einstellungstyp "multiSelectWithRemove":
+  Geräte der Doppelverbindung anzeigen und entfernen
+- Deutsche Namen für alle neuen Einstellungen von 2.9.0 (Ladehülle, Wischgesten,
+  Flugmodus, räumliches Audio, Gerät finden, ...)
+- Neue Modelle Soundcore Sport X20 und Liberty 4 Pro
+- tools/update-cli.sh lädt künftige CLI-Releases herunter und prüft sie
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.7-1
+- Oberfläche nach dem kompletten Mockup
+- Neue Gerätezeichnungen im Glas-Look (farbig mit Verlauf, Glanzkanten, Bodenreflex)
+- Fehlende deutsche Namen ergänzt (Lautstärkebegrenzung, Klangverlust-Ausgleich,
+  Berührungssperre, Trageton, Surround-Sound u. a.)
+- Kurzbeschreibungen unter einigen Schaltern (Game-Modus, Lautstärkebegrenzung)
+- Profil-Export als Textblock mit Kopieren-Knopf
+- Dialog "Neues Profil" mit Erklärung
+- Leere Geräteliste mit Zeichnung
+- Cover zeigt bei Lautsprechern "Akku"
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.6-1
+- Beim Start wird das zuletzt benutzte Gerät automatisch geöffnet
+- Ist es nicht erreichbar, wechselt die App zur Geräteverwaltung und zeigt einen Hinweis
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.5-1
+- Cover funktioniert jetzt immer: die App merkt sich das zuletzt geöffnete Gerät
+  und das Cover verbindet sich selbst, sobald es im Startbildschirm sichtbar ist
+- Cover aktualisiert Akku und Sound-Modus höchstens einmal pro Minute
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.4-1
+- Cover: aktueller Sound-Modus wird angezeigt
+- Cover-Aktion zum Umschalten des Sound-Modus (Normal/Transparenz/ANC)
+- Cover: Akkustände kompakt in einer Zeile
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.3-4
+- Fix: Aktionsknöpfe mit langem Text (z. B. "Tasten auf Standardeinstellungen
+  zurücksetzen") waren breiter als der Bildschirm; jetzt umbrechende Aktionszeile
+- Knopfreihen nutzen ButtonLayout und brechen bei Platzmangel um
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.3-3
+- Fix: Akkuanzeige auf der Geräteseite blieb leer (QML-Selbstbindung)
+- Gerade nicht verfügbare Einstellungen werden übersprungen, statt das
+  Auslesen aller folgenden Werte abzubrechen
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.3-2
+- Fix: HighlightImage hat keine Eigenschaft "mipmap" (App startete ohne Oberfläche)
+- Icon-Cache nach Installation aktualisieren
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.3-1
+- Oberfläche nach Mockup: Gerätebilder je Bauform (In-Ear, Over-Ear, Lautsprecher)
+- Geräteseite mit großem Gerätebild und Akkuanzeige (links/rechts/Hülle)
+- Bauform wird auch bei gekoppelten Bluetooth-Geräten erkannt
+- Akkustände in Prozent statt "4/5"
+
+* Thu Sep 24 2026 Denis <denis@localhost> 0.2-1
+- C++-Backend (QProcess) statt nicht existierendem QML-Process-Typ
+- Korrekte CLI-Syntax (setting --get/--set) und JSON-Ausgabe
+- Generische Einstellungsseiten für alle von OpenSCQ30 unterstützten Modelle
+- Auswahl gekoppelter Bluetooth-Geräte über BlueZ
+- Sailjail-Berechtigung Bluetooth, deutsche Übersetzung
+
+* Wed Jul 01 2026 Denis <denis@localhost> 0.1-1
+- Erste Version

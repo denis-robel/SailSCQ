@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b2a4a"/>
+      <stop offset="0.55" stop-color="#1167a8"/>
+      <stop offset="1" stop-color="#20b9d6"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#bfefff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sailfish-style leaf shape: three round corners, sharp top-right -->
+  <path d="M128 8 H248 V128 A120 120 0 0 1 128 248 A120 120 0 0 1 8 128 A120 120 0 0 1 128 8 Z" fill="url(#bg)"/>
+  <path d="M128 8 H248 V128 A120 120 0 0 1 128 248 A120 120 0 0 1 8 128 A120 120 0 0 1 128 8 Z" fill="url(#shine)"/>
+
+  <!-- headband -->
+  <path d="M66 160 V132 A62 62 0 0 1 190 132 V160" fill="none" stroke="#ffffff"
+        stroke-width="14" stroke-linecap="round"/>
+  <!-- ear cups -->
+  <rect x="50" y="140" width="34" height="66" rx="15" fill="#ffffff"/>
+  <rect x="172" y="140" width="34" height="66" rx="15" fill="#ffffff"/>
+
+  <!-- equalizer bars -->
+  <g fill="url(#bar)">
+    <rect x="97"  y="162" width="9" height="22" rx="4.5"/>
+    <rect x="110" y="148" width="9" height="50" rx="4.5"/>
+    <rect x="123.5" y="136" width="9" height="74" rx="4.5"/>
+    <rect x="137" y="152" width="9" height="42" rx="4.5"/>
+    <rect x="150" y="164" width="9" height="18" rx="4.5"/>
+  </g>
+</svg>

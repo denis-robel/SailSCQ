@@ -1,0 +1,21 @@
+# Build output
+RPMS/
+*.rpm
+Makefile
+*.o
+moc_*
+qrc_*
+*.qm
+harbour-sailscq
+.qmake.stash
+
+# SDK / IDE files
+.sfdk/
+*.pro.user
+*.pro.user.*
+documentation.list
+
+# The OpenSCQ30 CLI is downloaded from the official releases (signature is
+# checked) instead of being stored in git:
+#   tools/update-cli.sh "$(cat bin/aarch64/VERSION)"
+bin/aarch64/openscq30
