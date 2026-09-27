@@ -475,7 +475,8 @@ function guessModel(bluetoothName, modelNames) {
 function batteryPercent(value) {
     var m = /^(\d+)\s*\/\s*(\d+)$/.exec(String(value))
     if (!m || parseInt(m[2]) === 0) return -1
-    return Math.round(parseInt(m[1]) * 100 / parseInt(m[2]))
+    // some OpenSCQ30 modules add an offset of 1 to the level: never show more than 100 %
+    return Math.max(0, Math.min(100, Math.round(parseInt(m[1]) * 100 / parseInt(m[2]))))
 }
 
 // Yes/no values: the CLI reports e.g. the charging state as "Yes"/"No"
@@ -492,7 +493,8 @@ function yesNo(value) {
 function batteryLevel(value) {
     var m = /^(\d+)\s*\/\s*(\d+)$/.exec(String(value))
     if (!m || parseInt(m[2]) === 0) return null
-    return { level: parseInt(m[1]), max: parseInt(m[2]) }
+    var max = parseInt(m[2])
+    return { level: Math.max(0, Math.min(max, parseInt(m[1]))), max: max }
 }
 
 // Readable text for read-only values: battery levels as percent, single-word

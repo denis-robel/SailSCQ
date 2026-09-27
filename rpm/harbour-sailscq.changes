@@ -1,3 +1,11 @@
+* Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.17-1
+- Akkuanzeige gegen Randwerte abgesichert (höchstens 100 % bzw. maximale Stufe)
+
+* Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.16-1
+- Geräteseite: grafische Batteriesymbole für links/rechts/Hülle, in Segmente
+  nach den Stufen des Geräts geteilt, rot ab 20 %
+- Beim Laden Blitz im Batteriesymbol, das nächste Segment pulsiert
+
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.15-1
 - Quellcode-Adresse https://github.com/denis-robel/SailSCQ auf der Info-Seite und in der Spec
 - Name und Kontakt des Autors eingetragen

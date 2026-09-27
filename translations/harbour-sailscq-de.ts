@@ -150,7 +150,7 @@
         <translation>Hülle</translation>
     </message>
     <message>
-        <location filename="../qml/components/BatteryRow.qml" line="90"/>
+        <location filename="../qml/components/BatteryRow.qml" line="65"/>
         <source>%1 · charging</source>
         <translation>%1 · lädt</translation>
     </message>

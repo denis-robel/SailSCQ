@@ -55,6 +55,7 @@ qml/
     CliRunner             single CLI call from QML
     DeviceTile            illustration per form factor (in-ear, case, over-ear, speaker)
     BatteryRow            battery left/right/case
+    BatteryIcon           battery graphic with segments and charging bolt
     Strings.js            setting names (en/de, from OpenSCQ30 i18n)
 images/                   device illustrations
 bin/aarch64/              official CLI from the OpenSCQ30 releases (see VERSION)
@@ -145,7 +146,8 @@ reached, the app switches to the device list and shows a hint there.
 ### Battery levels
 
 Many Soundcore devices report the battery in only 5 steps (e.g. the
-Liberty 4 NC: 0, 20, 40, 60, 80, 100 %), so the battery bar shows segments.
+Liberty 4 NC: 0, 20, 40, 60, 80, 100 %), so the battery icon is split into
+segments.
 The charging state of each earbud is shown while it lies in the open case.
 The app re-reads the values every 2 minutes while it is open and right away
 when you return to it; in the background the cover does this (at most once
@@ -229,6 +231,7 @@ qml/
     CliRunner             einzelner CLI-Aufruf aus QML
     DeviceTile            Zeichnung je Bauform (In-Ear, Hülle, Over-Ear, Lautsprecher)
     BatteryRow            Akkustand links/rechts/Hülle
+    BatteryIcon           Batteriesymbol mit Segmenten und Lade-Blitz
     Strings.js            Namen der Einstellungen (en/de, aus OpenSCQ30-i18n)
 images/                   Gerätezeichnungen
 bin/aarch64/              offizielle CLI aus den OpenSCQ30-Releases (siehe VERSION)
@@ -319,8 +322,8 @@ erreichbar, wechselt sie zur Geräteverwaltung und zeigt dort einen Hinweis.
 ### Akkustände
 
 Viele Soundcore-Geräte melden den Akku nur in 5 Stufen (z. B. die
-Liberty 4 NC: 0, 20, 40, 60, 80, 100 %). Die Akkuleiste zeigt deshalb
-Segmente. Der Ladezustand eines Ohrhörers wird angezeigt, solange er in der
+Liberty 4 NC: 0, 20, 40, 60, 80, 100 %). Das Batteriesymbol ist deshalb
+in Segmente geteilt. Der Ladezustand eines Ohrhörers wird angezeigt, solange er in der
 offenen Hülle liegt. Die App liest die Werte alle 2 Minuten neu, solange sie
 offen ist, und sofort, wenn man in die App zurückkehrt; im Hintergrund
 übernimmt das Cover (höchstens einmal pro Minute, nur wenn es sichtbar ist).
