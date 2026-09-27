@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2026 Denis
+// SPDX-FileCopyrightText: 2026 Denis Robel
 // SPDX-License-Identifier: GPL-3.0-or-later
 import QtQuick 2.0
 import Sailfish.Silica 1.0
@@ -9,8 +9,7 @@ ApplicationWindow {
     id: appWindow
 
     // Address of the SailSCQ source code (shown on the About page, hidden while empty).
-    // TODO: set to your repository, e.g. "https://github.com/<name>/sailscq"
-    readonly property string sourceUrl: ""
+    readonly property string sourceUrl: "https://github.com/denis-robel/SailSCQ"
 
     // model id -> English model name, filled from `openscq30 list-models --json`
     property var modelNames: ({})

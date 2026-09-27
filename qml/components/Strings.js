@@ -1,5 +1,5 @@
 .pragma library
-// SPDX-FileCopyrightText: 2026 Denis
+// SPDX-FileCopyrightText: 2026 Denis Robel
 // SPDX-License-Identifier: GPL-3.0-or-later
 
 // Names of settings and categories, generated from OpenSCQ30 v2.12.0's

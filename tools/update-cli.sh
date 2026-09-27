@@ -1,5 +1,5 @@
 #!/bin/sh
-# SPDX-FileCopyrightText: 2026 Denis
+# SPDX-FileCopyrightText: 2026 Denis Robel
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Downloads the openscq30 CLI (Linux arm64) from the official OpenSCQ30
 # GitHub releases, verifies its GPG signature and installs it to bin/aarch64/.

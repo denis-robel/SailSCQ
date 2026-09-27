@@ -1,5 +1,9 @@
 # SailSCQ
 
+*English:* SailSCQ is a Sailfish OS app to control Soundcore headphones, earbuds
+and speakers, based on [OpenSCQ30](https://github.com/Oppzippy/OpenSCQ30).
+Unofficial, not affiliated with Anker or Soundcore. License: GPL-3.0-or-later.
+
 SailSCQ (Paket `harbour-sailscq`) ist eine Sailfish-OS-App für
 Soundcore-Kopfhörer, -Earbuds und -Lautsprecher: Geräuschunterdrückung,
 Equalizer, Tastenbelegung, Akkustände, Lautstärkebegrenzung und mehr.

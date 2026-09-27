@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2026 Denis
+// SPDX-FileCopyrightText: 2026 Denis Robel
 // SPDX-License-Identifier: GPL-3.0-or-later
 import QtQuick 2.0
 import Sailfish.Silica 1.0
@@ -118,7 +118,7 @@ Page {
                 horizontalAlignment: Text.AlignHCenter
                 font.pixelSize: Theme.fontSizeExtraSmall
                 color: Theme.secondaryColor
-                text: "© 2026 Denis"
+                text: "© 2026 Denis Robel"
                 topPadding: Theme.paddingLarge
             }
         }
