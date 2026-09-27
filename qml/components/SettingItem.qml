@@ -23,10 +23,29 @@ Item {
     width: parent ? parent.width : Screen.width
     height: loader.item ? loader.item.height : 0
 
+    // Short explanation below some settings (translated via Qt Linguist)
+    function description() {
+        switch (settingId) {
+        case "limitHighVolume": return qsTr("Limits the level to protect your hearing.")
+        case "gamingMode": return qsTr("Lower latency for games and videos.")
+        case "exportCustomEqualizerProfiles": return qsTr("Choose the profiles to export.")
+        case "dualConnections": return qsTr("Connect the headphones to two devices at the same time.")
+        case "dualConnectionsDevices": return qsTr("Devices known to the headphones. Long press to remove one.")
+        }
+        return ""
+    }
+
     function options() { return params.options || [] }
+    // Options are fixed values (translate them) except user-defined names:
+    // equalizer profiles and dual-connection devices keep their names.
+    readonly property bool userNamedOptions: type === "modifiableSelect"
+                                             || type === "multiSelectWithRemove"
+                                             || settingId === "exportCustomEqualizerProfiles"
+
     function localizedOption(i) {
         var lo = params.localizedOptions || []
-        return lo[i] !== undefined && lo[i] !== "" ? lo[i] : Strings.name(options()[i])
+        var text = lo[i] !== undefined && lo[i] !== "" ? lo[i] : Strings.name(options()[i])
+        return userNamedOptions ? text : Strings.translateText(text)
     }
     function localizedValue(v) {
         var i = options().indexOf(v)
@@ -59,7 +78,7 @@ Item {
         id: toggleComponent
         TextSwitch {
             text: root.label
-            description: Strings.description(root.settingId)
+            description: root.description()
             automaticCheck: false
             checked: root.value === true
             busy: root.pending
@@ -200,7 +219,7 @@ Item {
                 visible: text.length > 0
                 x: Theme.horizontalPageMargin
                 width: parent.width - 2 * Theme.horizontalPageMargin
-                text: Strings.description(root.settingId)
+                text: root.description()
                 wrapMode: Text.Wrap
                 font.pixelSize: Theme.fontSizeExtraSmall
                 color: Theme.secondaryHighlightColor
@@ -244,7 +263,7 @@ Item {
                 visible: text.length > 0
                 x: Theme.horizontalPageMargin
                 width: parent.width - 2 * Theme.horizontalPageMargin
-                text: Strings.description(root.settingId)
+                text: root.description()
                 wrapMode: Text.Wrap
                 font.pixelSize: Theme.fontSizeExtraSmall
                 color: Theme.secondaryHighlightColor

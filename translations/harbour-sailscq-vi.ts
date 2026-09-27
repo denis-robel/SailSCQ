@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="vi">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="30"/>
         <source>About SailSCQ</source>
-        <translation>Über SailSCQ</translation>
+        <translation>Giới thiệu SailSCQ</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="51"/>
         <source>Version %1</source>
-        <translation>Version %1</translation>
+        <translation>Phiên bản %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="61"/>
         <source>Control Soundcore headphones, earbuds and speakers: sound modes, noise canceling, equalizer, button configuration, battery levels and more.</source>
-        <translation>Steuert Soundcore-Kopfhörer, -Earbuds und -Lautsprecher: Sound-Modi, Geräuschunterdrückung, Equalizer, Tastenbelegung, Akkustände und mehr.</translation>
+        <translation>Điều khiển tai nghe, tai nghe nhét tai và loa Soundcore: chế độ âm thanh, chống ồn, bộ cân bằng, cấu hình nút, mức pin và hơn thế nữa.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="71"/>
         <source>Unofficial app. Not affiliated with Anker or Soundcore.</source>
-        <translation>Inoffizielle App. Nicht mit Anker oder Soundcore verbunden.</translation>
+        <translation>Ứng dụng không chính thức. Không liên kết với Anker hay Soundcore.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="74"/>
@@ -31,27 +31,27 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="81"/>
         <source>SailSCQ is a user interface for OpenSCQ30 by Kyle Scheuing. The OpenSCQ30 command line tool, which talks to the headphones, is included in the app unchanged.</source>
-        <translation>SailSCQ ist eine Oberfläche für OpenSCQ30 von Kyle Scheuing. Das OpenSCQ30-Kommandozeilenprogramm, das mit den Kopfhörern spricht, ist unverändert in der App enthalten.</translation>
+        <translation>SailSCQ là giao diện người dùng cho OpenSCQ30 của Kyle Scheuing. Công cụ dòng lệnh OpenSCQ30, dùng để giao tiếp với tai nghe, được đi kèm nguyên vẹn trong ứng dụng.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="85"/>
         <source>Included version</source>
-        <translation>Enthaltene Version</translation>
+        <translation>Phiên bản đi kèm</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="90"/>
         <source>OpenSCQ30 on GitHub</source>
-        <translation>OpenSCQ30 auf GitHub</translation>
+        <translation>OpenSCQ30 trên GitHub</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="94"/>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation>Giấy phép</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="101"/>
         <source>SailSCQ and OpenSCQ30 are free software under the GNU General Public License, version 3 or later. You may use, share and change them under its terms.</source>
-        <translation>SailSCQ und OpenSCQ30 sind freie Software unter der GNU General Public License, Version 3 oder später. Du darfst sie unter deren Bedingungen nutzen, weitergeben und verändern.</translation>
+        <translation>SailSCQ và OpenSCQ30 là phần mềm tự do theo GNU General Public License, phiên bản 3 trở lên. Bạn có thể sử dụng, chia sẻ và sửa đổi chúng theo các điều khoản của giấy phép này.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="105"/>
@@ -61,7 +61,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="111"/>
         <source>Source code of SailSCQ</source>
-        <translation>Quellcode von SailSCQ</translation>
+        <translation>Mã nguồn SailSCQ</translation>
     </message>
 </context>
 <context>
@@ -69,62 +69,62 @@
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="39"/>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>Làm mới</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="49"/>
         <source>Add device</source>
-        <translation>Gerät hinzufügen</translation>
+        <translation>Thêm thiết bị</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="58"/>
         <source>Pair the headphones in the Bluetooth settings first, then choose them here.</source>
-        <translation>Kopple die Kopfhörer zuerst in den Bluetooth-Einstellungen und wähle sie dann hier aus.</translation>
+        <translation>Hãy ghép đôi tai nghe trong cài đặt Bluetooth trước, sau đó chọn tại đây.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="61"/>
         <source>Paired Bluetooth devices</source>
-        <translation>Gekoppelte Bluetooth-Geräte</translation>
+        <translation>Thiết bị Bluetooth đã ghép đôi</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="92"/>
         <source>connected</source>
-        <translation>verbunden</translation>
+        <translation>đã kết nối</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="106"/>
         <source>No paired Bluetooth devices found.</source>
-        <translation>Keine gekoppelten Bluetooth-Geräte gefunden.</translation>
+        <translation>Không tìm thấy thiết bị Bluetooth đã ghép đôi.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="109"/>
         <source>Enter manually</source>
-        <translation>Manuell eingeben</translation>
+        <translation>Nhập thủ công</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="114"/>
         <source>MAC address</source>
-        <translation>MAC-Adresse</translation>
+        <translation>Địa chỉ MAC</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="126"/>
         <source>Next</source>
-        <translation>Weiter</translation>
+        <translation>Tiếp</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="131"/>
         <source>Options</source>
-        <translation>Optionen</translation>
+        <translation>Tùy chọn</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="135"/>
         <source>Demo mode</source>
-        <translation>Demo-Modus</translation>
+        <translation>Chế độ demo</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="136"/>
         <source>Simulated device, no headphones needed. Useful for testing the app.</source>
-        <translation>Simuliertes Gerät, keine Kopfhörer nötig. Nützlich zum Testen der App.</translation>
+        <translation>Thiết bị mô phỏng, không cần tai nghe. Hữu ích để thử ứng dụng.</translation>
     </message>
 </context>
 <context>
@@ -132,27 +132,27 @@
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="17"/>
         <source>Left</source>
-        <translation>Links</translation>
+        <translation>Trái</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="18"/>
         <source>Right</source>
-        <translation>Rechts</translation>
+        <translation>Phải</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="19"/>
         <source>Battery</source>
-        <translation>Akku</translation>
+        <translation>Pin</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="20"/>
         <source>Case</source>
-        <translation>Hülle</translation>
+        <translation>Hộp sạc</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="65"/>
         <source>%1 · charging</source>
-        <translation>%1 · lädt</translation>
+        <translation>%1 · đang sạc</translation>
     </message>
 </context>
 <context>
@@ -160,17 +160,17 @@
     <message>
         <location filename="../qml/pages/CategoryPage.qml" line="25"/>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>Làm mới</translation>
     </message>
     <message>
         <location filename="../qml/pages/CategoryPage.qml" line="63"/>
         <source>No settings available</source>
-        <translation>Keine Einstellungen verfügbar</translation>
+        <translation>Không có cài đặt nào</translation>
     </message>
     <message>
         <location filename="../qml/pages/CategoryPage.qml" line="63"/>
         <source>Not connected</source>
-        <translation>Nicht verbunden</translation>
+        <translation>Chưa kết nối</translation>
     </message>
 </context>
 <context>
@@ -178,42 +178,42 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="94"/>
         <source>Switching…</source>
-        <translation>Wird umgeschaltet…</translation>
+        <translation>Đang chuyển…</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="107"/>
         <source>Soundcore manager</source>
-        <translation>Soundcore-Verwaltung</translation>
+        <translation>Trình quản lý Soundcore</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="109"/>
         <source>Connecting…</source>
-        <translation>Verbinde…</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="129"/>
-        <source>L</source>
-        <translation>L</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="130"/>
-        <source>R</source>
-        <translation>R</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="131"/>
-        <source>Case</source>
-        <translation>Hülle</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="132"/>
-        <source>Battery</source>
-        <translation>Akku</translation>
+        <translation>Đang kết nối…</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="109"/>
         <source>Not connected</source>
-        <translation>Nicht verbunden</translation>
+        <translation>Chưa kết nối</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="129"/>
+        <source>L</source>
+        <translation>T</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="130"/>
+        <source>R</source>
+        <translation>P</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="131"/>
+        <source>Case</source>
+        <translation>Hộp sạc</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="132"/>
+        <source>Battery</source>
+        <translation>Pin</translation>
     </message>
 </context>
 <context>
@@ -221,52 +221,52 @@
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="95"/>
         <source>Reconnect</source>
-        <translation>Neu verbinden</translation>
+        <translation>Kết nối lại</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="99"/>
         <source>Refresh values</source>
-        <translation>Werte aktualisieren</translation>
+        <translation>Làm mới giá trị</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="136"/>
         <source>Updating…</source>
-        <translation>Wird aktualisiert…</translation>
+        <translation>Đang cập nhật…</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="137"/>
         <source>As of %1</source>
-        <translation>Stand: %1</translation>
+        <translation>Cập nhật lúc %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="160"/>
         <source>Connecting to %1</source>
-        <translation>Verbinde mit %1</translation>
+        <translation>Đang kết nối với %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="164"/>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="186"/>
         <source>Could not connect</source>
-        <translation>Verbindung fehlgeschlagen</translation>
+        <translation>Không thể kết nối</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="194"/>
         <source>Make sure the headphones are switched on and connected via Bluetooth. Pull down to try again.</source>
-        <translation>Stelle sicher, dass die Kopfhörer eingeschaltet und per Bluetooth verbunden sind. Zum erneuten Versuch nach unten ziehen.</translation>
+        <translation>Hãy đảm bảo tai nghe đã bật và kết nối qua Bluetooth. Kéo xuống để thử lại.</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="207"/>
         <source>Retry</source>
-        <translation>Erneut versuchen</translation>
+        <translation>Thử lại</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="214"/>
         <source>Settings</source>
-        <translation>Einstellungen</translation>
+        <translation>Cài đặt</translation>
     </message>
 </context>
 <context>
@@ -274,52 +274,52 @@
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="38"/>
         <source>openscq30 not found at %1</source>
-        <translation>openscq30 nicht gefunden unter %1</translation>
+        <translation>Không tìm thấy openscq30 tại %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="49"/>
         <source>%1 is not available. Make sure the headphones are switched on and connected via Bluetooth, then choose the device again.</source>
-        <translation>%1 ist nicht erreichbar. Stelle sicher, dass die Kopfhörer eingeschaltet und per Bluetooth verbunden sind, und wähle das Gerät dann erneut aus.</translation>
+        <translation>%1 không khả dụng. Hãy đảm bảo tai nghe đã bật và kết nối qua Bluetooth, sau đó chọn lại thiết bị.</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="71"/>
         <source>Could not load devices: %1</source>
-        <translation>Geräte konnten nicht geladen werden: %1</translation>
+        <translation>Không thể tải thiết bị: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="79"/>
         <source>Could not remove device: %1</source>
-        <translation>Gerät konnte nicht entfernt werden: %1</translation>
+        <translation>Không thể xóa thiết bị: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="92"/>
         <source>About SailSCQ</source>
-        <translation>Über SailSCQ</translation>
+        <translation>Giới thiệu SailSCQ</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="96"/>
         <source>Supported devices</source>
-        <translation>Unterstützte Geräte</translation>
+        <translation>Thiết bị được hỗ trợ</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="100"/>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>Làm mới</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="104"/>
         <source>Add device</source>
-        <translation>Gerät hinzufügen</translation>
+        <translation>Thêm thiết bị</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="114"/>
         <source>Soundcore device manager</source>
-        <translation>Soundcore-Geräteverwaltung</translation>
+        <translation>Trình quản lý thiết bị Soundcore</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="139"/>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="180"/>
@@ -329,12 +329,12 @@
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="206"/>
         <source>No devices</source>
-        <translation>Keine Geräte</translation>
+        <translation>Không có thiết bị</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="215"/>
         <source>Pull down to add your Soundcore device</source>
-        <translation>Nach unten ziehen, um dein Soundcore-Gerät hinzuzufügen</translation>
+        <translation>Kéo xuống để thêm thiết bị Soundcore của bạn</translation>
     </message>
 </context>
 <context>
@@ -342,7 +342,7 @@
     <message>
         <location filename="../qml/components/DeviceSession.qml" line="278"/>
         <source>Unknown error</source>
-        <translation>Unbekannter Fehler</translation>
+        <translation>Lỗi không xác định</translation>
     </message>
 </context>
 <context>
@@ -350,17 +350,17 @@
     <message>
         <location filename="../qml/components/EqualizerEditor.qml" line="86"/>
         <source>Reset</source>
-        <translation>Zurücksetzen</translation>
+        <translation>Đặt lại</translation>
     </message>
     <message>
         <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
         <source>Applying…</source>
-        <translation>Wird übernommen…</translation>
+        <translation>Đang áp dụng…</translation>
     </message>
     <message>
         <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
         <source>Apply</source>
-        <translation>Übernehmen</translation>
+        <translation>Áp dụng</translation>
     </message>
 </context>
 <context>
@@ -368,7 +368,7 @@
     <message>
         <location filename="../qml/pages/LicensePage.qml" line="17"/>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation>Giấy phép</translation>
     </message>
 </context>
 <context>
@@ -376,22 +376,22 @@
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="72"/>
         <source>Could not add device: %1</source>
-        <translation>Gerät konnte nicht hinzugefügt werden: %1</translation>
+        <translation>Không thể thêm thiết bị: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="87"/>
         <source>Select model</source>
-        <translation>Modell auswählen</translation>
+        <translation>Chọn mẫu</translation>
     </message>
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="94"/>
         <source>Search model</source>
-        <translation>Modell suchen</translation>
+        <translation>Tìm mẫu</translation>
     </message>
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="137"/>
         <source>suggested</source>
-        <translation>vorgeschlagen</translation>
+        <translation>được đề xuất</translation>
     </message>
 </context>
 <context>
@@ -399,17 +399,17 @@
     <message>
         <location filename="../src/openscq30cli.cpp" line="107"/>
         <source>Timeout: the device did not respond.</source>
-        <translation>Zeitüberschreitung: Das Gerät hat nicht geantwortet.</translation>
+        <translation>Hết thời gian: thiết bị không phản hồi.</translation>
     </message>
     <message>
         <location filename="../src/openscq30cli.cpp" line="109"/>
         <source>openscq30 crashed.</source>
-        <translation>openscq30 ist abgestürzt.</translation>
+        <translation>openscq30 bị lỗi.</translation>
     </message>
     <message>
         <location filename="../src/openscq30cli.cpp" line="117"/>
         <source>Could not start %1</source>
-        <translation>%1 konnte nicht gestartet werden</translation>
+        <translation>Không thể khởi động %1</translation>
     </message>
 </context>
 <context>
@@ -417,108 +417,108 @@
     <message>
         <location filename="../qml/components/SettingItem.qml" line="29"/>
         <source>Limits the level to protect your hearing.</source>
-        <translation>Begrenzt den Pegel, um das Gehör zu schonen.</translation>
+        <translation>Giới hạn âm lượng để bảo vệ thính giác.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="30"/>
         <source>Lower latency for games and videos.</source>
-        <translation>Geringere Latenz bei Spielen und Videos.</translation>
+        <translation>Độ trễ thấp hơn cho trò chơi và video.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="31"/>
         <source>Choose the profiles to export.</source>
-        <translation>Wähle die Profile, die exportiert werden sollen.</translation>
+        <translation>Chọn các hồ sơ cần xuất.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="32"/>
         <source>Connect the headphones to two devices at the same time.</source>
-        <translation>Kopfhörer gleichzeitig mit zwei Geräten verbinden.</translation>
+        <translation>Kết nối tai nghe với hai thiết bị cùng lúc.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="33"/>
         <source>Devices known to the headphones. Long press to remove one.</source>
-        <translation>Geräte, die die Kopfhörer kennen. Gedrückt halten, um eines zu entfernen.</translation>
+        <translation>Các thiết bị tai nghe đã biết. Nhấn giữ để xóa một thiết bị.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="124"/>
         <location filename="../qml/components/SettingItem.qml" line="162"/>
         <source>Applying…</source>
-        <translation>Wird übernommen…</translation>
+        <translation>Đang áp dụng…</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="134"/>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>Không</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="181"/>
         <source>Save as…</source>
-        <translation>Speichern als…</translation>
+        <translation>Lưu thành…</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="185"/>
         <source>New profile</source>
-        <translation>Neues Profil</translation>
+        <translation>Hồ sơ mới</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="186"/>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Tên</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="188"/>
         <source>Saves the current equalizer values as a new profile.</source>
-        <translation>Speichert die aktuellen Equalizer-Werte als eigenes Profil.</translation>
+        <translation>Lưu các giá trị bộ cân bằng hiện tại thành hồ sơ mới.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="198"/>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="202"/>
         <source>Deleting %1</source>
-        <translation>Lösche %1</translation>
+        <translation>Đang xóa %1</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="286"/>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="315"/>
         <source>connected</source>
-        <translation>verbunden</translation>
+        <translation>đã kết nối</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="328"/>
         <source>No devices</source>
-        <translation>Keine Geräte</translation>
+        <translation>Không có thiết bị</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="440"/>
         <source>Yes</source>
-        <translation>Ja</translation>
+        <translation>Có</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="441"/>
         <source>No</source>
-        <translation>Nein</translation>
+        <translation>Không</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="473"/>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>Sao chép</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="489"/>
         <source>Paste text to import</source>
-        <translation>Text zum Importieren einfügen</translation>
+        <translation>Dán văn bản cần nhập</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="494"/>
         <source>Import</source>
-        <translation>Importieren</translation>
+        <translation>Nhập</translation>
     </message>
 </context>
 <context>
@@ -526,44 +526,43 @@
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="21"/>
         <source>Over-ear headphones</source>
-        <translation>Over-Ear-Kopfhörer</translation>
+        <translation>Tai nghe chụp tai</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="22"/>
         <source>Speakers</source>
-        <translation>Lautsprecher</translation>
+        <translation>Loa</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="23"/>
         <source>In-ear headphones</source>
-        <translation>In-Ear-Kopfhörer</translation>
+        <translation>Tai nghe nhét tai</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="27"/>
         <source>One battery, sound modes, equalizer</source>
-        <translation>Ein Akku, Sound-Modi, Equalizer</translation>
+        <translation>Một pin, chế độ âm thanh, bộ cân bằng</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="28"/>
         <source>Equalizer, volume, power off</source>
-        <translation>Equalizer, Lautstärke, Ausschalten</translation>
+        <translation>Bộ cân bằng, âm lượng, tắt nguồn</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="29"/>
         <source>Charging case, battery left/right/case, often noise canceling and button configuration</source>
-        <translation>Ladehülle, Akku links/rechts/Hülle, meist Geräuschunterdrückung und Tastenbelegung</translation>
+        <translation>Hộp sạc, pin trái/phải/hộp, thường có chống ồn và cấu hình nút</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="112"/>
         <source>Supported devices</source>
-        <translation>Unterstützte Geräte</translation>
+        <translation>Thiết bị được hỗ trợ</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="115"/>
         <source>%n models · OpenSCQ30 %1</source>
         <translation>
-            <numerusform>%n Modell · OpenSCQ30 %1</numerusform>
-            <numerusform>%n Modelle · OpenSCQ30 %1</numerusform>
+            <numerusform>Số mẫu: %n · OpenSCQ30 %1</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -571,19 +570,18 @@
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="166"/>
         <source>%n models</source>
         <translation>
-            <numerusform>%n Modell</numerusform>
-            <numerusform>%n Modelle</numerusform>
+            <numerusform>Số mẫu: %n</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="121"/>
         <source>Search model</source>
-        <translation>Modell suchen</translation>
+        <translation>Tìm mẫu</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="210"/>
         <source>No matching model</source>
-        <translation>Kein passendes Modell</translation>
+        <translation>Không có mẫu phù hợp</translation>
     </message>
 </context>
 </TS>

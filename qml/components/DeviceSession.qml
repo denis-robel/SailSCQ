@@ -1,6 +1,7 @@
 // SPDX-FileCopyrightText: 2026 Denis Robel
 // SPDX-License-Identifier: GPL-3.0-or-later
 import QtQuick 2.0
+import "Strings.js" as Strings
 
 // Holds everything we know about one connected device:
 //   categories: output of `openscq30 device list-settings --json`
@@ -132,7 +133,25 @@ Item {
             return v === undefined || v === null ? "" : String(v)
         var i = def.setting.options.indexOf(v)
         var lo = def.setting.localizedOptions || []
-        return i >= 0 && lo[i] ? lo[i] : (v === undefined || v === null ? "" : String(v))
+        return i >= 0 && lo[i] ? Strings.translateText(lo[i]) : (v === undefined || v === null ? "" : String(v))
+    }
+
+    // The setting the cover button switches: "ambientSoundMode" (most models),
+    // "listeningMode" (Sleep A30), otherwise the first select in the
+    // "soundModes" category so that future models work too. "" if none.
+    function soundModeSettingId() {
+        var candidates = ["ambientSoundMode", "listeningMode"]
+        for (var i = 0; i < candidates.length; i++) {
+            var def = settingDef(candidates[i])
+            if (def && def.type === "select")
+                return candidates[i]
+        }
+        var cat = category("soundModes")
+        var settings = cat && cat.settings ? cat.settings : []
+        for (var j = 0; j < settings.length; j++)
+            if (settings[j].type === "select")
+                return settings[j].settingId
+        return ""
     }
 
     // Switches a select setting to its next option (wraps around).

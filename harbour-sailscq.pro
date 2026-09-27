@@ -35,7 +35,46 @@ DISTFILES += \
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
 CONFIG += sailfishapp_i18n
-TRANSLATIONS += translations/harbour-sailscq-de.ts
+TRANSLATIONS += \
+    translations/harbour-sailscq-bg.ts \
+    translations/harbour-sailscq-bn.ts \
+    translations/harbour-sailscq-cs.ts \
+    translations/harbour-sailscq-da.ts \
+    translations/harbour-sailscq-de.ts \
+    translations/harbour-sailscq-el.ts \
+    translations/harbour-sailscq-es.ts \
+    translations/harbour-sailscq-et.ts \
+    translations/harbour-sailscq-fi.ts \
+    translations/harbour-sailscq-fr.ts \
+    translations/harbour-sailscq-gu.ts \
+    translations/harbour-sailscq-hi.ts \
+    translations/harbour-sailscq-hu.ts \
+    translations/harbour-sailscq-it.ts \
+    translations/harbour-sailscq-kn.ts \
+    translations/harbour-sailscq-lt.ts \
+    translations/harbour-sailscq-lv.ts \
+    translations/harbour-sailscq-ml.ts \
+    translations/harbour-sailscq-mr.ts \
+    translations/harbour-sailscq-nb.ts \
+    translations/harbour-sailscq-nl.ts \
+    translations/harbour-sailscq-pa.ts \
+    translations/harbour-sailscq-pl.ts \
+    translations/harbour-sailscq-pt.ts \
+    translations/harbour-sailscq-pt_BR.ts \
+    translations/harbour-sailscq-ro.ts \
+    translations/harbour-sailscq-ru.ts \
+    translations/harbour-sailscq-sk.ts \
+    translations/harbour-sailscq-sl.ts \
+    translations/harbour-sailscq-sv.ts \
+    translations/harbour-sailscq-ta.ts \
+    translations/harbour-sailscq-te.ts \
+    translations/harbour-sailscq-tr.ts \
+    translations/harbour-sailscq-tt.ts \
+    translations/harbour-sailscq-uk.ts \
+    translations/harbour-sailscq-vi.ts \
+    translations/harbour-sailscq-zh_CN.ts \
+    translations/harbour-sailscq-zh_HK.ts \
+    translations/harbour-sailscq-zh_TW.ts
 
 # The openscq30 CLI (prebuilt Rust binary) is installed by the .spec file to
 # /usr/share/harbour-sailscq/bin/openscq30, see rpm/harbour-sailscq.spec.

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="et">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="30"/>
         <source>About SailSCQ</source>
-        <translation>Über SailSCQ</translation>
+        <translation>Teave SailSCQ kohta</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="51"/>
         <source>Version %1</source>
-        <translation>Version %1</translation>
+        <translation>Versioon %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="61"/>
         <source>Control Soundcore headphones, earbuds and speakers: sound modes, noise canceling, equalizer, button configuration, battery levels and more.</source>
-        <translation>Steuert Soundcore-Kopfhörer, -Earbuds und -Lautsprecher: Sound-Modi, Geräuschunterdrückung, Equalizer, Tastenbelegung, Akkustände und mehr.</translation>
+        <translation>Soundcore&apos;i kõrvaklappide, nööpkõrvaklappide ja kõlarite juhtimine: helirežiimid, mürasummutus, ekvalaiser, nuppude seaded, akutase ja muu.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="71"/>
         <source>Unofficial app. Not affiliated with Anker or Soundcore.</source>
-        <translation>Inoffizielle App. Nicht mit Anker oder Soundcore verbunden.</translation>
+        <translation>Mitteametlik rakendus. Ei ole seotud Ankeri ega Soundcore&apos;iga.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="74"/>
@@ -31,27 +31,27 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="81"/>
         <source>SailSCQ is a user interface for OpenSCQ30 by Kyle Scheuing. The OpenSCQ30 command line tool, which talks to the headphones, is included in the app unchanged.</source>
-        <translation>SailSCQ ist eine Oberfläche für OpenSCQ30 von Kyle Scheuing. Das OpenSCQ30-Kommandozeilenprogramm, das mit den Kopfhörern spricht, ist unverändert in der App enthalten.</translation>
+        <translation>SailSCQ on kasutajaliides Kyle Scheuingi OpenSCQ30 jaoks. OpenSCQ30 käsurea tööriist, mis kõrvaklappidega suhtleb, on rakenduses muutmata kujul kaasas.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="85"/>
         <source>Included version</source>
-        <translation>Enthaltene Version</translation>
+        <translation>Kaasasolev versioon</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="90"/>
         <source>OpenSCQ30 on GitHub</source>
-        <translation>OpenSCQ30 auf GitHub</translation>
+        <translation>OpenSCQ30 GitHubis</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="94"/>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation>Litsents</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="101"/>
         <source>SailSCQ and OpenSCQ30 are free software under the GNU General Public License, version 3 or later. You may use, share and change them under its terms.</source>
-        <translation>SailSCQ und OpenSCQ30 sind freie Software unter der GNU General Public License, Version 3 oder später. Du darfst sie unter deren Bedingungen nutzen, weitergeben und verändern.</translation>
+        <translation>SailSCQ ja OpenSCQ30 on vaba tarkvara GNU General Public License&apos;i versiooni 3 või hilisema alusel. Võid neid selle tingimustel kasutada, jagada ja muuta.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="105"/>
@@ -61,7 +61,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="111"/>
         <source>Source code of SailSCQ</source>
-        <translation>Quellcode von SailSCQ</translation>
+        <translation>SailSCQ lähtekood</translation>
     </message>
 </context>
 <context>
@@ -69,62 +69,62 @@
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="39"/>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>Värskenda</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="49"/>
         <source>Add device</source>
-        <translation>Gerät hinzufügen</translation>
+        <translation>Lisa seade</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="58"/>
         <source>Pair the headphones in the Bluetooth settings first, then choose them here.</source>
-        <translation>Kopple die Kopfhörer zuerst in den Bluetooth-Einstellungen und wähle sie dann hier aus.</translation>
+        <translation>Seo kõrvaklapid esmalt Bluetoothi seadetes ja vali need siis siin.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="61"/>
         <source>Paired Bluetooth devices</source>
-        <translation>Gekoppelte Bluetooth-Geräte</translation>
+        <translation>Seotud Bluetooth-seadmed</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="92"/>
         <source>connected</source>
-        <translation>verbunden</translation>
+        <translation>ühendatud</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="106"/>
         <source>No paired Bluetooth devices found.</source>
-        <translation>Keine gekoppelten Bluetooth-Geräte gefunden.</translation>
+        <translation>Seotud Bluetooth-seadmeid ei leitud.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="109"/>
         <source>Enter manually</source>
-        <translation>Manuell eingeben</translation>
+        <translation>Sisesta käsitsi</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="114"/>
         <source>MAC address</source>
-        <translation>MAC-Adresse</translation>
+        <translation>MAC-aadress</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="126"/>
         <source>Next</source>
-        <translation>Weiter</translation>
+        <translation>Edasi</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="131"/>
         <source>Options</source>
-        <translation>Optionen</translation>
+        <translation>Valikud</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="135"/>
         <source>Demo mode</source>
-        <translation>Demo-Modus</translation>
+        <translation>Demorežiim</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="136"/>
         <source>Simulated device, no headphones needed. Useful for testing the app.</source>
-        <translation>Simuliertes Gerät, keine Kopfhörer nötig. Nützlich zum Testen der App.</translation>
+        <translation>Simuleeritud seade, kõrvaklappe pole vaja. Kasulik rakenduse proovimiseks.</translation>
     </message>
 </context>
 <context>
@@ -132,27 +132,27 @@
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="17"/>
         <source>Left</source>
-        <translation>Links</translation>
+        <translation>Vasak</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="18"/>
         <source>Right</source>
-        <translation>Rechts</translation>
+        <translation>Parem</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="19"/>
         <source>Battery</source>
-        <translation>Akku</translation>
+        <translation>Aku</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="20"/>
         <source>Case</source>
-        <translation>Hülle</translation>
+        <translation>Ümbris</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="65"/>
         <source>%1 · charging</source>
-        <translation>%1 · lädt</translation>
+        <translation>%1 · laeb</translation>
     </message>
 </context>
 <context>
@@ -160,17 +160,17 @@
     <message>
         <location filename="../qml/pages/CategoryPage.qml" line="25"/>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>Värskenda</translation>
     </message>
     <message>
         <location filename="../qml/pages/CategoryPage.qml" line="63"/>
         <source>No settings available</source>
-        <translation>Keine Einstellungen verfügbar</translation>
+        <translation>Seadeid pole saadaval</translation>
     </message>
     <message>
         <location filename="../qml/pages/CategoryPage.qml" line="63"/>
         <source>Not connected</source>
-        <translation>Nicht verbunden</translation>
+        <translation>Pole ühendatud</translation>
     </message>
 </context>
 <context>
@@ -178,42 +178,42 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="94"/>
         <source>Switching…</source>
-        <translation>Wird umgeschaltet…</translation>
+        <translation>Vahetamine…</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="107"/>
         <source>Soundcore manager</source>
-        <translation>Soundcore-Verwaltung</translation>
+        <translation>Soundcore&apos;i haldur</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="109"/>
         <source>Connecting…</source>
-        <translation>Verbinde…</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="129"/>
-        <source>L</source>
-        <translation>L</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="130"/>
-        <source>R</source>
-        <translation>R</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="131"/>
-        <source>Case</source>
-        <translation>Hülle</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="132"/>
-        <source>Battery</source>
-        <translation>Akku</translation>
+        <translation>Ühendamine…</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="109"/>
         <source>Not connected</source>
-        <translation>Nicht verbunden</translation>
+        <translation>Pole ühendatud</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="129"/>
+        <source>L</source>
+        <translation>V</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="130"/>
+        <source>R</source>
+        <translation>P</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="131"/>
+        <source>Case</source>
+        <translation>Ümbris</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="132"/>
+        <source>Battery</source>
+        <translation>Aku</translation>
     </message>
 </context>
 <context>
@@ -221,52 +221,52 @@
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="95"/>
         <source>Reconnect</source>
-        <translation>Neu verbinden</translation>
+        <translation>Ühenda uuesti</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="99"/>
         <source>Refresh values</source>
-        <translation>Werte aktualisieren</translation>
+        <translation>Värskenda väärtusi</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="136"/>
         <source>Updating…</source>
-        <translation>Wird aktualisiert…</translation>
+        <translation>Uuendamine…</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="137"/>
         <source>As of %1</source>
-        <translation>Stand: %1</translation>
+        <translation>Seis kell %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="160"/>
         <source>Connecting to %1</source>
-        <translation>Verbinde mit %1</translation>
+        <translation>Ühendamine seadmega %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="164"/>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Tühista</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="186"/>
         <source>Could not connect</source>
-        <translation>Verbindung fehlgeschlagen</translation>
+        <translation>Ühendamine ebaõnnestus</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="194"/>
         <source>Make sure the headphones are switched on and connected via Bluetooth. Pull down to try again.</source>
-        <translation>Stelle sicher, dass die Kopfhörer eingeschaltet und per Bluetooth verbunden sind. Zum erneuten Versuch nach unten ziehen.</translation>
+        <translation>Veendu, et kõrvaklapid on sisse lülitatud ja Bluetoothi kaudu ühendatud. Uuesti proovimiseks tõmba alla.</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="207"/>
         <source>Retry</source>
-        <translation>Erneut versuchen</translation>
+        <translation>Proovi uuesti</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="214"/>
         <source>Settings</source>
-        <translation>Einstellungen</translation>
+        <translation>Seaded</translation>
     </message>
 </context>
 <context>
@@ -274,52 +274,52 @@
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="38"/>
         <source>openscq30 not found at %1</source>
-        <translation>openscq30 nicht gefunden unter %1</translation>
+        <translation>openscq30 ei leitud asukohast %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="49"/>
         <source>%1 is not available. Make sure the headphones are switched on and connected via Bluetooth, then choose the device again.</source>
-        <translation>%1 ist nicht erreichbar. Stelle sicher, dass die Kopfhörer eingeschaltet und per Bluetooth verbunden sind, und wähle das Gerät dann erneut aus.</translation>
+        <translation>%1 pole saadaval. Veendu, et kõrvaklapid on sisse lülitatud ja Bluetoothi kaudu ühendatud, ning vali seade uuesti.</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="71"/>
         <source>Could not load devices: %1</source>
-        <translation>Geräte konnten nicht geladen werden: %1</translation>
+        <translation>Seadmete laadimine ebaõnnestus: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="79"/>
         <source>Could not remove device: %1</source>
-        <translation>Gerät konnte nicht entfernt werden: %1</translation>
+        <translation>Seadme eemaldamine ebaõnnestus: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="92"/>
         <source>About SailSCQ</source>
-        <translation>Über SailSCQ</translation>
+        <translation>Teave SailSCQ kohta</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="96"/>
         <source>Supported devices</source>
-        <translation>Unterstützte Geräte</translation>
+        <translation>Toetatud seadmed</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="100"/>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>Värskenda</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="104"/>
         <source>Add device</source>
-        <translation>Gerät hinzufügen</translation>
+        <translation>Lisa seade</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="114"/>
         <source>Soundcore device manager</source>
-        <translation>Soundcore-Geräteverwaltung</translation>
+        <translation>Soundcore&apos;i seadmehaldur</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="139"/>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Eemalda</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="180"/>
@@ -329,12 +329,12 @@
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="206"/>
         <source>No devices</source>
-        <translation>Keine Geräte</translation>
+        <translation>Seadmeid pole</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="215"/>
         <source>Pull down to add your Soundcore device</source>
-        <translation>Nach unten ziehen, um dein Soundcore-Gerät hinzuzufügen</translation>
+        <translation>Tõmba alla, et lisada oma Soundcore&apos;i seade</translation>
     </message>
 </context>
 <context>
@@ -342,7 +342,7 @@
     <message>
         <location filename="../qml/components/DeviceSession.qml" line="278"/>
         <source>Unknown error</source>
-        <translation>Unbekannter Fehler</translation>
+        <translation>Tundmatu viga</translation>
     </message>
 </context>
 <context>
@@ -350,17 +350,17 @@
     <message>
         <location filename="../qml/components/EqualizerEditor.qml" line="86"/>
         <source>Reset</source>
-        <translation>Zurücksetzen</translation>
+        <translation>Lähtesta</translation>
     </message>
     <message>
         <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
         <source>Applying…</source>
-        <translation>Wird übernommen…</translation>
+        <translation>Rakendamine…</translation>
     </message>
     <message>
         <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
         <source>Apply</source>
-        <translation>Übernehmen</translation>
+        <translation>Rakenda</translation>
     </message>
 </context>
 <context>
@@ -368,7 +368,7 @@
     <message>
         <location filename="../qml/pages/LicensePage.qml" line="17"/>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation>Litsents</translation>
     </message>
 </context>
 <context>
@@ -376,22 +376,22 @@
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="72"/>
         <source>Could not add device: %1</source>
-        <translation>Gerät konnte nicht hinzugefügt werden: %1</translation>
+        <translation>Seadme lisamine ebaõnnestus: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="87"/>
         <source>Select model</source>
-        <translation>Modell auswählen</translation>
+        <translation>Vali mudel</translation>
     </message>
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="94"/>
         <source>Search model</source>
-        <translation>Modell suchen</translation>
+        <translation>Otsi mudelit</translation>
     </message>
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="137"/>
         <source>suggested</source>
-        <translation>vorgeschlagen</translation>
+        <translation>soovitatud</translation>
     </message>
 </context>
 <context>
@@ -399,17 +399,17 @@
     <message>
         <location filename="../src/openscq30cli.cpp" line="107"/>
         <source>Timeout: the device did not respond.</source>
-        <translation>Zeitüberschreitung: Das Gerät hat nicht geantwortet.</translation>
+        <translation>Ajalõpp: seade ei vastanud.</translation>
     </message>
     <message>
         <location filename="../src/openscq30cli.cpp" line="109"/>
         <source>openscq30 crashed.</source>
-        <translation>openscq30 ist abgestürzt.</translation>
+        <translation>openscq30 jooksis kokku.</translation>
     </message>
     <message>
         <location filename="../src/openscq30cli.cpp" line="117"/>
         <source>Could not start %1</source>
-        <translation>%1 konnte nicht gestartet werden</translation>
+        <translation>%1 käivitamine ebaõnnestus</translation>
     </message>
 </context>
 <context>
@@ -417,108 +417,108 @@
     <message>
         <location filename="../qml/components/SettingItem.qml" line="29"/>
         <source>Limits the level to protect your hearing.</source>
-        <translation>Begrenzt den Pegel, um das Gehör zu schonen.</translation>
+        <translation>Piirab helitugevust, et kaitsta kuulmist.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="30"/>
         <source>Lower latency for games and videos.</source>
-        <translation>Geringere Latenz bei Spielen und Videos.</translation>
+        <translation>Väiksem viivitus mängude ja videote jaoks.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="31"/>
         <source>Choose the profiles to export.</source>
-        <translation>Wähle die Profile, die exportiert werden sollen.</translation>
+        <translation>Vali eksporditavad profiilid.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="32"/>
         <source>Connect the headphones to two devices at the same time.</source>
-        <translation>Kopfhörer gleichzeitig mit zwei Geräten verbinden.</translation>
+        <translation>Ühenda kõrvaklapid korraga kahe seadmega.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="33"/>
         <source>Devices known to the headphones. Long press to remove one.</source>
-        <translation>Geräte, die die Kopfhörer kennen. Gedrückt halten, um eines zu entfernen.</translation>
+        <translation>Kõrvaklappidele tuntud seadmed. Pikk vajutus eemaldab seadme.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="124"/>
         <location filename="../qml/components/SettingItem.qml" line="162"/>
         <source>Applying…</source>
-        <translation>Wird übernommen…</translation>
+        <translation>Rakendamine…</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="134"/>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>Puudub</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="181"/>
         <source>Save as…</source>
-        <translation>Speichern als…</translation>
+        <translation>Salvesta kui…</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="185"/>
         <source>New profile</source>
-        <translation>Neues Profil</translation>
+        <translation>Uus profiil</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="186"/>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="188"/>
         <source>Saves the current equalizer values as a new profile.</source>
-        <translation>Speichert die aktuellen Equalizer-Werte als eigenes Profil.</translation>
+        <translation>Salvestab praegused ekvalaiseri väärtused uue profiilina.</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="198"/>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>Kustuta</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="202"/>
         <source>Deleting %1</source>
-        <translation>Lösche %1</translation>
+        <translation>Kustutamine: %1</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="286"/>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Eemalda</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="315"/>
         <source>connected</source>
-        <translation>verbunden</translation>
+        <translation>ühendatud</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="328"/>
         <source>No devices</source>
-        <translation>Keine Geräte</translation>
+        <translation>Seadmeid pole</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="440"/>
         <source>Yes</source>
-        <translation>Ja</translation>
+        <translation>Jah</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="441"/>
         <source>No</source>
-        <translation>Nein</translation>
+        <translation>Ei</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="473"/>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>Kopeeri</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="489"/>
         <source>Paste text to import</source>
-        <translation>Text zum Importieren einfügen</translation>
+        <translation>Kleebi imporditav tekst</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="494"/>
         <source>Import</source>
-        <translation>Importieren</translation>
+        <translation>Impordi</translation>
     </message>
 </context>
 <context>
@@ -526,44 +526,44 @@
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="21"/>
         <source>Over-ear headphones</source>
-        <translation>Over-Ear-Kopfhörer</translation>
+        <translation>Kõrvapealsed kõrvaklapid</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="22"/>
         <source>Speakers</source>
-        <translation>Lautsprecher</translation>
+        <translation>Kõlarid</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="23"/>
         <source>In-ear headphones</source>
-        <translation>In-Ear-Kopfhörer</translation>
+        <translation>Nööpkõrvaklapid</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="27"/>
         <source>One battery, sound modes, equalizer</source>
-        <translation>Ein Akku, Sound-Modi, Equalizer</translation>
+        <translation>Üks aku, helirežiimid, ekvalaiser</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="28"/>
         <source>Equalizer, volume, power off</source>
-        <translation>Equalizer, Lautstärke, Ausschalten</translation>
+        <translation>Ekvalaiser, helitugevus, väljalülitus</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="29"/>
         <source>Charging case, battery left/right/case, often noise canceling and button configuration</source>
-        <translation>Ladehülle, Akku links/rechts/Hülle, meist Geräuschunterdrückung und Tastenbelegung</translation>
+        <translation>Laadimisümbris, aku vasak/parem/ümbris, sageli mürasummutus ja nuppude seaded</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="112"/>
         <source>Supported devices</source>
-        <translation>Unterstützte Geräte</translation>
+        <translation>Toetatud seadmed</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="115"/>
         <source>%n models · OpenSCQ30 %1</source>
         <translation>
-            <numerusform>%n Modell · OpenSCQ30 %1</numerusform>
-            <numerusform>%n Modelle · OpenSCQ30 %1</numerusform>
+            <numerusform>Mudeleid: %n · OpenSCQ30 %1</numerusform>
+            <numerusform>Mudeleid: %n · OpenSCQ30 %1</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -571,19 +571,19 @@
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="166"/>
         <source>%n models</source>
         <translation>
-            <numerusform>%n Modell</numerusform>
-            <numerusform>%n Modelle</numerusform>
+            <numerusform>Mudeleid: %n</numerusform>
+            <numerusform>Mudeleid: %n</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="121"/>
         <source>Search model</source>
-        <translation>Modell suchen</translation>
+        <translation>Otsi mudelit</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="210"/>
         <source>No matching model</source>
-        <translation>Kein passendes Modell</translation>
+        <translation>Sobivat mudelit pole</translation>
     </message>
 </context>
 </TS>

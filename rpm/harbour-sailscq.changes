@@ -1,3 +1,24 @@
+* Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.20-1
+- Cover-Umschaltknopf auch für den Sleep A30 (Hörmodus statt Umgebungsgeräusch-Modus)
+  und automatisch für künftige Modelle mit anderer Moduseinstellung
+- Cover zeigt über dem Wert, welcher Modus umgeschaltet wird
+- "Hörmodus" und "Lokal" in allen 39 Sprachen
+- Korrigiert: spanischer "Hörmodus" und französische "Sound-Modi" aus OpenSCQ30
+
+* Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.19-1
+- Übersetzungen in alle 39 Sailfish-OS-Sprachen; die App folgt der Sprache des Telefons
+- Einstellungsnamen aus allen passenden OpenSCQ30-Übersetzungen (nicht mehr nur Deutsch),
+  Kategorien und Sound-Modi für jede Sprache
+- Kurzbeschreibungen der Einstellungen über das Qt-Übersetzungssystem
+- Beschreibung im App-Menü in allen Sprachen
+
+* Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.18-1
+- Auswahlwerte auf Deutsch: die openscq30-CLI liefert sie immer englisch
+  ("Noise Canceling", "Play Pause", ...), die App übersetzt sie jetzt selbst,
+  auch auf dem Cover; eigene Profil- und Gerätenamen bleiben unverändert
+- Deutsche Namen für alle 106 Einstellungen und 49 fehlende Auswahlwerte
+  (Wochentage, Lichteffekte, Equalizer-Voreinstellungen, ...), Minutenangaben
+
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.17-1
 - Akkuanzeige gegen Randwerte abgesichert (höchstens 100 % bzw. maximale Stufe)
 

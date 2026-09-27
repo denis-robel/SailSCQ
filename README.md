@@ -156,7 +156,10 @@ a minute, only while it is visible).
 ### Cover
 
 The cover shows device, sound mode and battery levels and has two actions:
-refresh and next sound mode. It uses the device of the open device page or,
+refresh and next sound mode. The button switches the ambient sound mode on
+most models and the listening mode on the Sleep A30; the name of the switched
+setting is shown above its value. Models without sound modes only get the
+refresh action. It uses the device of the open device page or,
 if none is open, the last opened device (stored in
 `~/.config/org.sailscq/sailscq/settings.ini`). The connection is only made
 while the cover is visible; afterwards the values are read at most once a
@@ -171,6 +174,28 @@ If "Could not connect" appears although the CLI works directly in the
 terminal, the sandbox probably blocks the RFCOMM connection (the CLI
 registers a Bluetooth profile with BlueZ). To test, set
 `Sandboxing=Disabled` under `[X-Sailjail]` in the `.desktop` file.
+
+### Languages
+
+SailSCQ follows the phone's language (Settings → System → Language). The
+user interface is translated into all 39 Sailfish OS languages: Bulgarian,
+Bengali, Czech, Danish, German, Greek, Spanish, Estonian, Finnish, French,
+Gujarati, Hindi, Hungarian, Italian, Kannada, Lithuanian, Latvian, Malayalam,
+Marathi, Norwegian, Dutch, Punjabi, Polish, Portuguese, Brazilian Portuguese,
+Romanian, Russian, Slovak, Slovene, Swedish, Tamil, Telugu, Turkish, Tatar,
+Ukrainian, Vietnamese and Chinese (simplified, Taiwan, Hong Kong).
+
+Setting names and values come from OpenSCQ30's own translations
+(`lib/i18n`: complete for German, Spanish, Brazilian Portuguese and Turkish,
+partial for Italian, Ukrainian, Russian and others). The categories and sound
+modes are translated by SailSCQ for every language; anything else falls back
+to English. The openscq30 CLI always reports values in English, so the app
+translates them itself (`Strings.translateText`).
+
+Most translations were created with the help of an AI and have not been
+reviewed by native speakers yet. Corrections are very welcome: edit
+`translations/harbour-sailscq-<language>.ts` (e.g. with Qt Linguist) and open
+a pull request.
 
 ### Harbour / Jolla Store
 
@@ -331,7 +356,10 @@ offen ist, und sofort, wenn man in die App zurückkehrt; im Hintergrund
 ### Cover
 
 Das Cover zeigt Gerät, Sound-Modus und Akkustände und hat zwei Aktionen:
-Aktualisieren und nächster Sound-Modus. Es nutzt das Gerät der offenen
+Aktualisieren und nächster Sound-Modus. Der Knopf schaltet bei den meisten
+Modellen den Umgebungsgeräusch-Modus um, beim Sleep A30 den Hörmodus; über dem
+Wert steht, welche Einstellung umgeschaltet wird. Modelle ohne Sound-Modi
+haben nur die Aktualisieren-Aktion. Es nutzt das Gerät der offenen
 Geräteseite oder, wenn keine offen ist, das zuletzt geöffnete Gerät
 (gespeichert in `~/.config/org.sailscq/sailscq/settings.ini`). Die
 Verbindung wird erst aufgebaut, wenn das Cover sichtbar ist, danach werden
@@ -346,6 +374,25 @@ Falls „Verbindung fehlgeschlagen“ erscheint, obwohl die CLI direkt im
 Terminal funktioniert, blockiert vermutlich die Sandbox die RFCOMM-Verbindung
 (die CLI registriert ein Bluetooth-Profil bei BlueZ). Zum Test in der
 `.desktop`-Datei unter `[X-Sailjail]` `Sandboxing=Disabled` setzen.
+
+### Sprachen
+
+SailSCQ folgt der Sprache des Telefons (Einstellungen → System → Sprache).
+Die Oberfläche ist in alle 39 Sailfish-OS-Sprachen übersetzt (Liste im
+englischen Teil).
+
+Die Namen und Werte der Einstellungen stammen aus den Übersetzungen von
+OpenSCQ30 (`lib/i18n`: vollständig für Deutsch, Spanisch, brasilianisches
+Portugiesisch und Türkisch, teilweise für Italienisch, Ukrainisch, Russisch
+und weitere). Kategorien und Sound-Modi übersetzt SailSCQ für jede Sprache
+selbst; alles andere erscheint notfalls auf Englisch. Die openscq30-CLI
+liefert Werte immer englisch, deshalb übersetzt die App sie selbst
+(`Strings.translateText`).
+
+Die meisten Übersetzungen wurden mithilfe einer KI erstellt und sind noch
+nicht von Muttersprachlern geprüft. Korrekturen sind sehr willkommen:
+`translations/harbour-sailscq-<sprache>.ts` bearbeiten (z. B. mit Qt
+Linguist) und einen Pull Request stellen.
 
 ### Harbour / Jolla Store
 

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="bn">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="30"/>
         <source>About SailSCQ</source>
-        <translation>Über SailSCQ</translation>
+        <translation>SailSCQ সম্পর্কে</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="51"/>
         <source>Version %1</source>
-        <translation>Version %1</translation>
+        <translation>সংস্করণ %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="61"/>
         <source>Control Soundcore headphones, earbuds and speakers: sound modes, noise canceling, equalizer, button configuration, battery levels and more.</source>
-        <translation>Steuert Soundcore-Kopfhörer, -Earbuds und -Lautsprecher: Sound-Modi, Geräuschunterdrückung, Equalizer, Tastenbelegung, Akkustände und mehr.</translation>
+        <translation>Soundcore হেডফোন, ইয়ারবাড ও স্পিকার নিয়ন্ত্রণ করুন: সাউন্ড মোড, নয়েজ ক্যান্সেলিং, ইকুয়ালাইজার, বোতাম কনফিগারেশন, ব্যাটারির স্তর এবং আরও অনেক কিছু।</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="71"/>
         <source>Unofficial app. Not affiliated with Anker or Soundcore.</source>
-        <translation>Inoffizielle App. Nicht mit Anker oder Soundcore verbunden.</translation>
+        <translation>অনানুষ্ঠানিক অ্যাপ। Anker বা Soundcore-এর সঙ্গে যুক্ত নয়।</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="74"/>
@@ -31,27 +31,27 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="81"/>
         <source>SailSCQ is a user interface for OpenSCQ30 by Kyle Scheuing. The OpenSCQ30 command line tool, which talks to the headphones, is included in the app unchanged.</source>
-        <translation>SailSCQ ist eine Oberfläche für OpenSCQ30 von Kyle Scheuing. Das OpenSCQ30-Kommandozeilenprogramm, das mit den Kopfhörern spricht, ist unverändert in der App enthalten.</translation>
+        <translation>SailSCQ হলো Kyle Scheuing-এর OpenSCQ30-এর জন্য একটি ইউজার ইন্টারফেস। হেডফোনের সঙ্গে যোগাযোগকারী OpenSCQ30 কমান্ড লাইন টুল অ্যাপে অপরিবর্তিত অবস্থায় রয়েছে।</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="85"/>
         <source>Included version</source>
-        <translation>Enthaltene Version</translation>
+        <translation>অন্তর্ভুক্ত সংস্করণ</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="90"/>
         <source>OpenSCQ30 on GitHub</source>
-        <translation>OpenSCQ30 auf GitHub</translation>
+        <translation>GitHub-এ OpenSCQ30</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="94"/>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation>লাইসেন্স</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="101"/>
         <source>SailSCQ and OpenSCQ30 are free software under the GNU General Public License, version 3 or later. You may use, share and change them under its terms.</source>
-        <translation>SailSCQ und OpenSCQ30 sind freie Software unter der GNU General Public License, Version 3 oder später. Du darfst sie unter deren Bedingungen nutzen, weitergeben und verändern.</translation>
+        <translation>SailSCQ ও OpenSCQ30 হলো GNU General Public License সংস্করণ 3 বা পরবর্তী অধীনে মুক্ত সফটওয়্যার। এর শর্ত অনুযায়ী আপনি এগুলো ব্যবহার, শেয়ার ও পরিবর্তন করতে পারেন।</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="105"/>
@@ -61,7 +61,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="111"/>
         <source>Source code of SailSCQ</source>
-        <translation>Quellcode von SailSCQ</translation>
+        <translation>SailSCQ-এর সোর্স কোড</translation>
     </message>
 </context>
 <context>
@@ -69,62 +69,62 @@
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="39"/>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>রিফ্রেশ</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="49"/>
         <source>Add device</source>
-        <translation>Gerät hinzufügen</translation>
+        <translation>ডিভাইস যোগ করুন</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="58"/>
         <source>Pair the headphones in the Bluetooth settings first, then choose them here.</source>
-        <translation>Kopple die Kopfhörer zuerst in den Bluetooth-Einstellungen und wähle sie dann hier aus.</translation>
+        <translation>প্রথমে Bluetooth সেটিংসে হেডফোন পেয়ার করুন, তারপর এখানে বেছে নিন।</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="61"/>
         <source>Paired Bluetooth devices</source>
-        <translation>Gekoppelte Bluetooth-Geräte</translation>
+        <translation>পেয়ার করা Bluetooth ডিভাইস</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="92"/>
         <source>connected</source>
-        <translation>verbunden</translation>
+        <translation>সংযুক্ত</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="106"/>
         <source>No paired Bluetooth devices found.</source>
-        <translation>Keine gekoppelten Bluetooth-Geräte gefunden.</translation>
+        <translation>কোনো পেয়ার করা Bluetooth ডিভাইস পাওয়া যায়নি।</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="109"/>
         <source>Enter manually</source>
-        <translation>Manuell eingeben</translation>
+        <translation>নিজে লিখুন</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="114"/>
         <source>MAC address</source>
-        <translation>MAC-Adresse</translation>
+        <translation>MAC ঠিকানা</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="126"/>
         <source>Next</source>
-        <translation>Weiter</translation>
+        <translation>পরবর্তী</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="131"/>
         <source>Options</source>
-        <translation>Optionen</translation>
+        <translation>বিকল্প</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="135"/>
         <source>Demo mode</source>
-        <translation>Demo-Modus</translation>
+        <translation>ডেমো মোড</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddDevicePage.qml" line="136"/>
         <source>Simulated device, no headphones needed. Useful for testing the app.</source>
-        <translation>Simuliertes Gerät, keine Kopfhörer nötig. Nützlich zum Testen der App.</translation>
+        <translation>সিমুলেটেড ডিভাইস, হেডফোনের প্রয়োজন নেই। অ্যাপ চেষ্টা করে দেখার জন্য উপযোগী।</translation>
     </message>
 </context>
 <context>
@@ -132,27 +132,27 @@
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="17"/>
         <source>Left</source>
-        <translation>Links</translation>
+        <translation>বাম</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="18"/>
         <source>Right</source>
-        <translation>Rechts</translation>
+        <translation>ডান</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="19"/>
         <source>Battery</source>
-        <translation>Akku</translation>
+        <translation>ব্যাটারি</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="20"/>
         <source>Case</source>
-        <translation>Hülle</translation>
+        <translation>কেস</translation>
     </message>
     <message>
         <location filename="../qml/components/BatteryRow.qml" line="65"/>
         <source>%1 · charging</source>
-        <translation>%1 · lädt</translation>
+        <translation>%1 · চার্জ হচ্ছে</translation>
     </message>
 </context>
 <context>
@@ -160,17 +160,17 @@
     <message>
         <location filename="../qml/pages/CategoryPage.qml" line="25"/>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>রিফ্রেশ</translation>
     </message>
     <message>
         <location filename="../qml/pages/CategoryPage.qml" line="63"/>
         <source>No settings available</source>
-        <translation>Keine Einstellungen verfügbar</translation>
+        <translation>কোনো সেটিং উপলব্ধ নেই</translation>
     </message>
     <message>
         <location filename="../qml/pages/CategoryPage.qml" line="63"/>
         <source>Not connected</source>
-        <translation>Nicht verbunden</translation>
+        <translation>সংযুক্ত নয়</translation>
     </message>
 </context>
 <context>
@@ -178,42 +178,42 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="94"/>
         <source>Switching…</source>
-        <translation>Wird umgeschaltet…</translation>
+        <translation>পরিবর্তন হচ্ছে…</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="107"/>
         <source>Soundcore manager</source>
-        <translation>Soundcore-Verwaltung</translation>
+        <translation>Soundcore ব্যবস্থাপক</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="109"/>
         <source>Connecting…</source>
-        <translation>Verbinde…</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="129"/>
-        <source>L</source>
-        <translation>L</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="130"/>
-        <source>R</source>
-        <translation>R</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="131"/>
-        <source>Case</source>
-        <translation>Hülle</translation>
-    </message>
-    <message>
-        <location filename="../qml/cover/CoverPage.qml" line="132"/>
-        <source>Battery</source>
-        <translation>Akku</translation>
+        <translation>সংযুক্ত হচ্ছে…</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="109"/>
         <source>Not connected</source>
-        <translation>Nicht verbunden</translation>
+        <translation>সংযুক্ত নয়</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="129"/>
+        <source>L</source>
+        <translation>বা</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="130"/>
+        <source>R</source>
+        <translation>ডা</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="131"/>
+        <source>Case</source>
+        <translation>কেস</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="132"/>
+        <source>Battery</source>
+        <translation>ব্যাটারি</translation>
     </message>
 </context>
 <context>
@@ -221,52 +221,52 @@
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="95"/>
         <source>Reconnect</source>
-        <translation>Neu verbinden</translation>
+        <translation>আবার সংযুক্ত করুন</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="99"/>
         <source>Refresh values</source>
-        <translation>Werte aktualisieren</translation>
+        <translation>মান রিফ্রেশ করুন</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="136"/>
         <source>Updating…</source>
-        <translation>Wird aktualisiert…</translation>
+        <translation>হালনাগাদ হচ্ছে…</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="137"/>
         <source>As of %1</source>
-        <translation>Stand: %1</translation>
+        <translation>%1 পর্যন্ত অবস্থা</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="160"/>
         <source>Connecting to %1</source>
-        <translation>Verbinde mit %1</translation>
+        <translation>%1-এর সঙ্গে সংযুক্ত হচ্ছে</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="164"/>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>বাতিল</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="186"/>
         <source>Could not connect</source>
-        <translation>Verbindung fehlgeschlagen</translation>
+        <translation>সংযুক্ত করা যায়নি</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="194"/>
         <source>Make sure the headphones are switched on and connected via Bluetooth. Pull down to try again.</source>
-        <translation>Stelle sicher, dass die Kopfhörer eingeschaltet und per Bluetooth verbunden sind. Zum erneuten Versuch nach unten ziehen.</translation>
+        <translation>হেডফোন চালু আছে এবং Bluetooth দিয়ে সংযুক্ত আছে কিনা নিশ্চিত করুন। আবার চেষ্টা করতে নিচে টানুন।</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="207"/>
         <source>Retry</source>
-        <translation>Erneut versuchen</translation>
+        <translation>আবার চেষ্টা করুন</translation>
     </message>
     <message>
         <location filename="../qml/pages/DevicePage.qml" line="214"/>
         <source>Settings</source>
-        <translation>Einstellungen</translation>
+        <translation>সেটিংস</translation>
     </message>
 </context>
 <context>
@@ -274,67 +274,67 @@
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="38"/>
         <source>openscq30 not found at %1</source>
-        <translation>openscq30 nicht gefunden unter %1</translation>
+        <translation>%1-এ openscq30 পাওয়া যায়নি</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="49"/>
         <source>%1 is not available. Make sure the headphones are switched on and connected via Bluetooth, then choose the device again.</source>
-        <translation>%1 ist nicht erreichbar. Stelle sicher, dass die Kopfhörer eingeschaltet und per Bluetooth verbunden sind, und wähle das Gerät dann erneut aus.</translation>
+        <translation>%1 উপলব্ধ নয়। হেডফোন চালু আছে এবং Bluetooth দিয়ে সংযুক্ত আছে কিনা নিশ্চিত করুন, তারপর ডিভাইসটি আবার বেছে নিন।</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="71"/>
         <source>Could not load devices: %1</source>
-        <translation>Geräte konnten nicht geladen werden: %1</translation>
+        <translation>ডিভাইস লোড করা যায়নি: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="79"/>
         <source>Could not remove device: %1</source>
-        <translation>Gerät konnte nicht entfernt werden: %1</translation>
+        <translation>ডিভাইস সরানো যায়নি: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="92"/>
         <source>About SailSCQ</source>
-        <translation>Über SailSCQ</translation>
+        <translation>SailSCQ সম্পর্কে</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="96"/>
         <source>Supported devices</source>
-        <translation>Unterstützte Geräte</translation>
+        <translation>সমর্থিত ডিভাইস</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="100"/>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>রিফ্রেশ</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="104"/>
         <source>Add device</source>
-        <translation>Gerät hinzufügen</translation>
+        <translation>ডিভাইস যোগ করুন</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="114"/>
         <source>Soundcore device manager</source>
-        <translation>Soundcore-Geräteverwaltung</translation>
+        <translation>Soundcore ডিভাইস ব্যবস্থাপক</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="139"/>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>সরান</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="180"/>
         <source>Demo</source>
-        <translation>Demo</translation>
+        <translation>ডেমো</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="206"/>
         <source>No devices</source>
-        <translation>Keine Geräte</translation>
+        <translation>কোনো ডিভাইস নেই</translation>
     </message>
     <message>
         <location filename="../qml/pages/DeviceSelectionPage.qml" line="215"/>
         <source>Pull down to add your Soundcore device</source>
-        <translation>Nach unten ziehen, um dein Soundcore-Gerät hinzuzufügen</translation>
+        <translation>আপনার Soundcore ডিভাইস যোগ করতে নিচে টানুন</translation>
     </message>
 </context>
 <context>
@@ -342,7 +342,7 @@
     <message>
         <location filename="../qml/components/DeviceSession.qml" line="278"/>
         <source>Unknown error</source>
-        <translation>Unbekannter Fehler</translation>
+        <translation>অজানা ত্রুটি</translation>
     </message>
 </context>
 <context>
@@ -350,17 +350,17 @@
     <message>
         <location filename="../qml/components/EqualizerEditor.qml" line="86"/>
         <source>Reset</source>
-        <translation>Zurücksetzen</translation>
+        <translation>রিসেট</translation>
     </message>
     <message>
         <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
         <source>Applying…</source>
-        <translation>Wird übernommen…</translation>
+        <translation>প্রয়োগ হচ্ছে…</translation>
     </message>
     <message>
         <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
         <source>Apply</source>
-        <translation>Übernehmen</translation>
+        <translation>প্রয়োগ করুন</translation>
     </message>
 </context>
 <context>
@@ -368,7 +368,7 @@
     <message>
         <location filename="../qml/pages/LicensePage.qml" line="17"/>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation>লাইসেন্স</translation>
     </message>
 </context>
 <context>
@@ -376,22 +376,22 @@
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="72"/>
         <source>Could not add device: %1</source>
-        <translation>Gerät konnte nicht hinzugefügt werden: %1</translation>
+        <translation>ডিভাইস যোগ করা যায়নি: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="87"/>
         <source>Select model</source>
-        <translation>Modell auswählen</translation>
+        <translation>মডেল বেছে নিন</translation>
     </message>
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="94"/>
         <source>Search model</source>
-        <translation>Modell suchen</translation>
+        <translation>মডেল খুঁজুন</translation>
     </message>
     <message>
         <location filename="../qml/pages/ModelSelectionPage.qml" line="137"/>
         <source>suggested</source>
-        <translation>vorgeschlagen</translation>
+        <translation>প্রস্তাবিত</translation>
     </message>
 </context>
 <context>
@@ -399,17 +399,17 @@
     <message>
         <location filename="../src/openscq30cli.cpp" line="107"/>
         <source>Timeout: the device did not respond.</source>
-        <translation>Zeitüberschreitung: Das Gerät hat nicht geantwortet.</translation>
+        <translation>সময় শেষ: ডিভাইস সাড়া দেয়নি।</translation>
     </message>
     <message>
         <location filename="../src/openscq30cli.cpp" line="109"/>
         <source>openscq30 crashed.</source>
-        <translation>openscq30 ist abgestürzt.</translation>
+        <translation>openscq30 ক্র্যাশ করেছে।</translation>
     </message>
     <message>
         <location filename="../src/openscq30cli.cpp" line="117"/>
         <source>Could not start %1</source>
-        <translation>%1 konnte nicht gestartet werden</translation>
+        <translation>%1 চালু করা যায়নি</translation>
     </message>
 </context>
 <context>
@@ -417,108 +417,108 @@
     <message>
         <location filename="../qml/components/SettingItem.qml" line="29"/>
         <source>Limits the level to protect your hearing.</source>
-        <translation>Begrenzt den Pegel, um das Gehör zu schonen.</translation>
+        <translation>আপনার শ্রবণশক্তি রক্ষায় শব্দের মাত্রা সীমিত করে।</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="30"/>
         <source>Lower latency for games and videos.</source>
-        <translation>Geringere Latenz bei Spielen und Videos.</translation>
+        <translation>গেম ও ভিডিওর জন্য কম বিলম্ব।</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="31"/>
         <source>Choose the profiles to export.</source>
-        <translation>Wähle die Profile, die exportiert werden sollen.</translation>
+        <translation>রপ্তানির জন্য প্রোফাইল বেছে নিন।</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="32"/>
         <source>Connect the headphones to two devices at the same time.</source>
-        <translation>Kopfhörer gleichzeitig mit zwei Geräten verbinden.</translation>
+        <translation>হেডফোন একসঙ্গে দুটি ডিভাইসে সংযুক্ত করুন।</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="33"/>
         <source>Devices known to the headphones. Long press to remove one.</source>
-        <translation>Geräte, die die Kopfhörer kennen. Gedrückt halten, um eines zu entfernen.</translation>
+        <translation>হেডফোনের পরিচিত ডিভাইস। একটি সরাতে দীর্ঘক্ষণ চাপুন।</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="124"/>
         <location filename="../qml/components/SettingItem.qml" line="162"/>
         <source>Applying…</source>
-        <translation>Wird übernommen…</translation>
+        <translation>প্রয়োগ হচ্ছে…</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="134"/>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>কোনোটিই নয়</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="181"/>
         <source>Save as…</source>
-        <translation>Speichern als…</translation>
+        <translation>হিসেবে সংরক্ষণ…</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="185"/>
         <source>New profile</source>
-        <translation>Neues Profil</translation>
+        <translation>নতুন প্রোফাইল</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="186"/>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>নাম</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="188"/>
         <source>Saves the current equalizer values as a new profile.</source>
-        <translation>Speichert die aktuellen Equalizer-Werte als eigenes Profil.</translation>
+        <translation>বর্তমান ইকুয়ালাইজার মানগুলো নতুন প্রোফাইল হিসেবে সংরক্ষণ করে।</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="198"/>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>মুছুন</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="202"/>
         <source>Deleting %1</source>
-        <translation>Lösche %1</translation>
+        <translation>%1 মোছা হচ্ছে</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="286"/>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>সরান</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="315"/>
         <source>connected</source>
-        <translation>verbunden</translation>
+        <translation>সংযুক্ত</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="328"/>
         <source>No devices</source>
-        <translation>Keine Geräte</translation>
+        <translation>কোনো ডিভাইস নেই</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="440"/>
         <source>Yes</source>
-        <translation>Ja</translation>
+        <translation>হ্যাঁ</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="441"/>
         <source>No</source>
-        <translation>Nein</translation>
+        <translation>না</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="473"/>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>কপি</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="489"/>
         <source>Paste text to import</source>
-        <translation>Text zum Importieren einfügen</translation>
+        <translation>আমদানির জন্য টেক্সট পেস্ট করুন</translation>
     </message>
     <message>
         <location filename="../qml/components/SettingItem.qml" line="494"/>
         <source>Import</source>
-        <translation>Importieren</translation>
+        <translation>আমদানি</translation>
     </message>
 </context>
 <context>
@@ -526,44 +526,44 @@
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="21"/>
         <source>Over-ear headphones</source>
-        <translation>Over-Ear-Kopfhörer</translation>
+        <translation>ওভার-ইয়ার হেডফোন</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="22"/>
         <source>Speakers</source>
-        <translation>Lautsprecher</translation>
+        <translation>স্পিকার</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="23"/>
         <source>In-ear headphones</source>
-        <translation>In-Ear-Kopfhörer</translation>
+        <translation>ইন-ইয়ার ইয়ারবাড</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="27"/>
         <source>One battery, sound modes, equalizer</source>
-        <translation>Ein Akku, Sound-Modi, Equalizer</translation>
+        <translation>একটি ব্যাটারি, সাউন্ড মোড, ইকুয়ালাইজার</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="28"/>
         <source>Equalizer, volume, power off</source>
-        <translation>Equalizer, Lautstärke, Ausschalten</translation>
+        <translation>ইকুয়ালাইজার, ভলিউম, বন্ধ করা</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="29"/>
         <source>Charging case, battery left/right/case, often noise canceling and button configuration</source>
-        <translation>Ladehülle, Akku links/rechts/Hülle, meist Geräuschunterdrückung und Tastenbelegung</translation>
+        <translation>চার্জিং কেস, ব্যাটারি বাম/ডান/কেস, প্রায়ই নয়েজ ক্যান্সেলিং ও বোতাম কনফিগারেশন</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="112"/>
         <source>Supported devices</source>
-        <translation>Unterstützte Geräte</translation>
+        <translation>সমর্থিত ডিভাইস</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="115"/>
         <source>%n models · OpenSCQ30 %1</source>
         <translation>
-            <numerusform>%n Modell · OpenSCQ30 %1</numerusform>
-            <numerusform>%n Modelle · OpenSCQ30 %1</numerusform>
+            <numerusform>মডেল: %n · OpenSCQ30 %1</numerusform>
+            <numerusform>মডেল: %n · OpenSCQ30 %1</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -571,19 +571,19 @@
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="166"/>
         <source>%n models</source>
         <translation>
-            <numerusform>%n Modell</numerusform>
-            <numerusform>%n Modelle</numerusform>
+            <numerusform>মডেল: %n</numerusform>
+            <numerusform>মডেল: %n</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="121"/>
         <source>Search model</source>
-        <translation>Modell suchen</translation>
+        <translation>মডেল খুঁজুন</translation>
     </message>
     <message>
         <location filename="../qml/pages/SupportedDevicesPage.qml" line="210"/>
         <source>No matching model</source>
-        <translation>Kein passendes Modell</translation>
+        <translation>মিলে যাওয়া কোনো মডেল নেই</translation>
     </message>
 </context>
 </TS>

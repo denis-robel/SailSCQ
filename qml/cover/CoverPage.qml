@@ -11,9 +11,10 @@ CoverBackground {
     readonly property var session: appWindow.currentSession
     readonly property bool connected: session !== null && session.connected
 
-    // Sound mode (Normal / Transparenz / Geräuschunterdrückung), if the device has one
-    readonly property string soundModeId: "ambientSoundMode"
-    readonly property bool hasSoundMode: connected && session.settingDef(soundModeId) !== null
+    // The mode the cover button switches: sound mode (Normal / Transparency /
+    // Noise canceling) on most models, listening mode on the Sleep A30.
+    readonly property string soundModeId: connected ? session.soundModeSettingId() : ""
+    readonly property bool hasSoundMode: soundModeId.length > 0
     readonly property bool switching: hasSoundMode && !!session.pending[soundModeId]
 
     readonly property var batteries: connected
@@ -68,7 +69,18 @@ CoverBackground {
             truncationMode: TruncationMode.Fade
         }
 
-        // current sound mode, large and in the highlight color
+        // which setting is switched ("Umgebungsgeräusch-Modus", "Hörmodus", ...)
+        Label {
+            visible: cover.hasSoundMode
+            width: parent.width
+            horizontalAlignment: Text.AlignHCenter
+            truncationMode: TruncationMode.Fade
+            font.pixelSize: Theme.fontSizeTiny
+            color: Theme.secondaryHighlightColor
+            text: cover.hasSoundMode ? Strings.name(cover.soundModeId) : ""
+        }
+
+        // current value, large and in the highlight color
         Label {
             visible: cover.hasSoundMode
             width: parent.width
