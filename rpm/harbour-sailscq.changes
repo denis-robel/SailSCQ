@@ -1,3 +1,8 @@
+* Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.21-1
+- Fix: Info-Seite zeigte nach "sfdk build" eine veraltete Versionsnummer
+  (Version kommt jetzt aus einem von qmake erzeugten version.h statt aus einer
+  Compiler-Definition, die make bei Änderungen nicht bemerkt)
+
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.20-1
 - Cover-Umschaltknopf auch für den Sleep A30 (Hörmodus statt Umgebungsgeräusch-Modus)
   und automatisch für künftige Modelle mit anderer Moduseinstellung

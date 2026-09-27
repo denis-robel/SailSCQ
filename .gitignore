@@ -1,4 +1,5 @@
 # Build output
+version.h
 RPMS/
 *.rpm
 Makefile

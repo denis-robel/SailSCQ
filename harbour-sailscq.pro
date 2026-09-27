@@ -3,10 +3,19 @@ TARGET = harbour-sailscq
 CONFIG += sailfishapp
 QT += dbus
 
-# App version, passed in by the .spec file (%qmake5 VERSION=... RELEASE=...)
+# App version, passed in by the .spec file (%qmake5 VERSION=... RELEASE=...).
+# It is written to a generated header instead of a -D compiler flag: make does
+# not notice changed flags, so incremental builds (sfdk build) kept showing the
+# old version. The header is only rewritten when the version changes.
 isEmpty(VERSION): VERSION = 0.0
 isEmpty(RELEASE): RELEASE = 0
-DEFINES += APP_VERSION=\\\"$${VERSION}-$${RELEASE}\\\"
+VERSION_HEADER = $$OUT_PWD/version.h
+VERSION_LINE = "$${LITERAL_HASH}define APP_VERSION \"$${VERSION}-$${RELEASE}\""
+!equals(VERSION_LINE, $$cat($$VERSION_HEADER, blob)) {
+    write_file($$VERSION_HEADER, VERSION_LINE)|error("Could not write $$VERSION_HEADER")
+}
+INCLUDEPATH += $$OUT_PWD
+HEADERS += $$VERSION_HEADER
 
 SOURCES += \
     src/harbour-sailscq.cpp \

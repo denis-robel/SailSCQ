@@ -176,42 +176,42 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="82"/>
+        <location filename="../qml/cover/CoverPage.qml" line="94"/>
         <source>Switching…</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="95"/>
+        <location filename="../qml/cover/CoverPage.qml" line="107"/>
         <source>Soundcore manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="97"/>
+        <location filename="../qml/cover/CoverPage.qml" line="109"/>
         <source>Connecting…</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="97"/>
+        <location filename="../qml/cover/CoverPage.qml" line="109"/>
         <source>Not connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="117"/>
+        <location filename="../qml/cover/CoverPage.qml" line="129"/>
         <source>L</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="118"/>
+        <location filename="../qml/cover/CoverPage.qml" line="130"/>
         <source>R</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="119"/>
+        <location filename="../qml/cover/CoverPage.qml" line="131"/>
         <source>Case</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="120"/>
+        <location filename="../qml/cover/CoverPage.qml" line="132"/>
         <source>Battery</source>
         <translation type="unfinished"></translation>
     </message>
@@ -340,7 +340,7 @@
 <context>
     <name>DeviceSession</name>
     <message>
-        <location filename="../qml/components/DeviceSession.qml" line="259"/>
+        <location filename="../qml/components/DeviceSession.qml" line="278"/>
         <source>Unknown error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -415,83 +415,108 @@
 <context>
     <name>SettingItem</name>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="105"/>
-        <location filename="../qml/components/SettingItem.qml" line="143"/>
+        <location filename="../qml/components/SettingItem.qml" line="29"/>
+        <source>Limits the level to protect your hearing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="30"/>
+        <source>Lower latency for games and videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="31"/>
+        <source>Choose the profiles to export.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <source>Connect the headphones to two devices at the same time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="33"/>
+        <source>Devices known to the headphones. Long press to remove one.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="124"/>
+        <location filename="../qml/components/SettingItem.qml" line="162"/>
         <source>Applying…</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="115"/>
+        <location filename="../qml/components/SettingItem.qml" line="134"/>
         <source>None</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="162"/>
+        <location filename="../qml/components/SettingItem.qml" line="181"/>
         <source>Save as…</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="166"/>
+        <location filename="../qml/components/SettingItem.qml" line="185"/>
         <source>New profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="167"/>
+        <location filename="../qml/components/SettingItem.qml" line="186"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="169"/>
+        <location filename="../qml/components/SettingItem.qml" line="188"/>
         <source>Saves the current equalizer values as a new profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="179"/>
+        <location filename="../qml/components/SettingItem.qml" line="198"/>
         <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="183"/>
+        <location filename="../qml/components/SettingItem.qml" line="202"/>
         <source>Deleting %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="267"/>
+        <location filename="../qml/components/SettingItem.qml" line="286"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="296"/>
+        <location filename="../qml/components/SettingItem.qml" line="315"/>
         <source>connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="309"/>
+        <location filename="../qml/components/SettingItem.qml" line="328"/>
         <source>No devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="421"/>
+        <location filename="../qml/components/SettingItem.qml" line="440"/>
         <source>Yes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="422"/>
+        <location filename="../qml/components/SettingItem.qml" line="441"/>
         <source>No</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="454"/>
+        <location filename="../qml/components/SettingItem.qml" line="473"/>
         <source>Copy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="470"/>
+        <location filename="../qml/components/SettingItem.qml" line="489"/>
         <source>Paste text to import</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="475"/>
+        <location filename="../qml/components/SettingItem.qml" line="494"/>
         <source>Import</source>
         <translation type="unfinished"></translation>
     </message>
