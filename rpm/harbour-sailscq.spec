@@ -1,6 +1,6 @@
 Name:       harbour-sailscq
 Summary:    SailSCQ - control Soundcore headphones (based on OpenSCQ30)
-Version:    0.21
+Version:    0.22
 Release:    1
 License:    GPL-3.0-or-later
 URL:        https://github.com/denis-robel/SailSCQ

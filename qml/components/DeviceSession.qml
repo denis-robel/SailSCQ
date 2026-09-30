@@ -49,9 +49,14 @@ Item {
         lastUpdate = 0
     }
 
-    // Connects if needed, otherwise re-reads values if they are older than maxAgeMs.
+    // True while automatic connection attempts are paused for this device
+    // (its last attempt failed). Manual reload() always tries.
+    readonly property bool autoConnectBlocked: macAddress.length > 0 && !!appWindow.connectFailures[macAddress]
+
+    // Automatic refresh (cover, timers): connects if needed, otherwise re-reads
+    // values older than maxAgeMs. Does not retry a device that failed to connect.
     function ensureFresh(maxAgeMs) {
-        if (!macAddress || busy)
+        if (!macAddress || busy || autoConnectBlocked)
             return
         if (!connected)
             reload()
@@ -271,11 +276,14 @@ Item {
                 if (success && json && json.length !== undefined) {
                     session.categories = json
                     session.connected = true
+                    appWindow.clearConnectFailed(session.macAddress)
                     session.refreshValues()
                 } else {
                     session.loading = false
                     session.connected = false
                     session.error = message || qsTr("Unknown error")
+                    // no more automatic attempts until the user retries
+                    appWindow.markConnectFailed(session.macAddress)
                 }
             } else if (info.kind === "values") {
                 session._merge(json)
@@ -287,9 +295,14 @@ Item {
                     return
                 }
                 session.loading = false
-                session.lastUpdate = Date.now()
-                if (!success)
+                if (success) {
+                    session.lastUpdate = Date.now()
+                    appWindow.clearConnectFailed(session.macAddress)
+                } else {
                     session.warning = message
+                    // device gone (switched off, out of range): stop automatic reads
+                    appWindow.markConnectFailed(session.macAddress)
+                }
             } else if (info.kind === "set") {
                 session._merge(json)
                 var p = session._copy(session.pending)

@@ -36,6 +36,26 @@ ApplicationWindow {
         return modelNames[modelId] || modelId
     }
 
+    // Devices whose last connection attempt failed (MAC -> true). Automatic
+    // attempts (cover, periodic refresh) are skipped for them, because
+    // repeated failing connections can upset the phone's Bluetooth stack.
+    // Cleared by a successful connection; kept only until the app restarts.
+    property var connectFailures: ({})
+
+    function markConnectFailed(macAddress) {
+        var f = {}
+        for (var k in connectFailures) f[k] = true
+        f[macAddress] = true
+        connectFailures = f
+    }
+
+    function clearConnectFailed(macAddress) {
+        if (!connectFailures[macAddress]) return
+        var f = {}
+        for (var k in connectFailures) if (k !== macAddress) f[k] = true
+        connectFailures = f
+    }
+
     function rememberDevice(macAddress, modelId) {
         lastMacAddress = macAddress
         lastModelId = modelId

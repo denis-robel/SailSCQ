@@ -340,7 +340,7 @@
 <context>
     <name>DeviceSession</name>
     <message>
-        <location filename="../qml/components/DeviceSession.qml" line="278"/>
+        <location filename="../qml/components/DeviceSession.qml" line="284"/>
         <source>Unknown error</source>
         <translation>অজানা ত্রুটি</translation>
     </message>

@@ -163,7 +163,8 @@ refresh action. It uses the device of the open device page or,
 if none is open, the last opened device (stored in
 `~/.config/org.sailscq/sailscq/settings.ini`). The connection is only made
 while the cover is visible; afterwards the values are read at most once a
-minute.
+minute. If a device cannot be reached, the app stops these automatic attempts
+until you reconnect by hand (pull down → "Reconnect") or restart the app.
 
 ### Sandbox (Sailjail)
 
@@ -363,7 +364,9 @@ haben nur die Aktualisieren-Aktion. Es nutzt das Gerät der offenen
 Geräteseite oder, wenn keine offen ist, das zuletzt geöffnete Gerät
 (gespeichert in `~/.config/org.sailscq/sailscq/settings.ini`). Die
 Verbindung wird erst aufgebaut, wenn das Cover sichtbar ist, danach werden
-die Werte höchstens einmal pro Minute gelesen.
+die Werte höchstens einmal pro Minute gelesen. Ist ein Gerät nicht
+erreichbar, stellt die App diese automatischen Versuche ein, bis man von Hand
+neu verbindet (nach unten ziehen → „Neu verbinden“) oder die App neu startet.
 
 ### Sandbox (Sailjail)
 

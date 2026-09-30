@@ -1,3 +1,10 @@
+* Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.22-1
+- Nach einem fehlgeschlagenen Verbindungsversuch keine automatischen Wiederholungen
+  mehr (Cover, regelmäßige Aktualisierung), bis man selbst neu verbindet oder die
+  App neu startet; viele fehlschlagende Verbindungen können den Bluetooth-Dienst
+  des Telefons stören
+- Gilt auch, wenn ein verbundenes Gerät verschwindet (ausgeschaltet, außer Reichweite)
+
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.21-1
 - Fix: Info-Seite zeigte nach "sfdk build" eine veraltete Versionsnummer
   (Version kommt jetzt aus einem von qmake erzeugten version.h statt aus einer
