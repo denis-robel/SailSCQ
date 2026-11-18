@@ -1,3 +1,14 @@
+* Wed Nov 18 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.23-1
+- OpenSCQ30-CLI 2.13.0: neue Modelle Soundcore Q11i, C30i, AeroClip und Liberty 4
+- Wecker für den Sleep A30: neuer Einstellungstyp "Uhrzeit" mit Zeitauswahl,
+  Wecker hinzufügen/löschen, "Automatisch umschalten beim Einschlafen"
+- Neue Einstellungen (je nach Modell): Druckempfindlichkeit, Ansage des Umgebungsmodus,
+  Tastenbelegung während eines Anrufs
+- Hinweis im Equalizer, wenn nur ein Earbud verbunden ist (aus OpenSCQ30)
+- Namen der Einstellungen aus OpenSCQ30 2.13.0 übernommen (u. a. Russisch
+  deutlich vollständiger), deutsche Namen für alle neuen Einstellungen
+- Q11i wird als Over-Ear-Kopfhörer angezeigt
+
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.22-1
 - Nach einem fehlgeschlagenen Verbindungsversuch keine automatischen Wiederholungen
   mehr (Cover, regelmäßige Aktualisierung), bis man selbst neu verbindet oder die

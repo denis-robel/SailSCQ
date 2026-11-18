@@ -7,7 +7,7 @@ import "Strings.js" as Strings
 // Renders one setting from `list-settings --json` with the matching control.
 // Types: toggle, i32Range, select, optionalSelect, modifiableSelect,
 //        multiSelect, multiSelectWithRemove, equalizer, hueColorPicker,
-//        information, importString, action
+//        information, importString, action, timeOfDay
 Item {
     id: root
 
@@ -65,9 +65,13 @@ Item {
             case "multiSelect":      return multiSelectComponent
             case "multiSelectWithRemove": return multiSelectWithRemoveComponent
             case "hueColorPicker":   return hueComponent
-            case "equalizer":        return equalizerComponent
+            // OpenSCQ30 2.13: with only one earbud connected the equalizer is
+            // reported as information "Unavailable" instead of band values.
+            case "equalizer":        return typeof root.value === "string"
+                                            ? informationComponent : equalizerComponent
             case "importString":     return importComponent
             case "action":           return actionComponent
+            case "timeOfDay":        return timeOfDayComponent
             default:                 return informationComponent
             }
         }
@@ -428,6 +432,44 @@ Item {
         }
     }
 
+    // ---- timeOfDay (OpenSCQ30 2.13: alarm times) ---------------------------
+    // list-settings: { type: "timeOfDay", hours, minutes }; --get returns the
+    // minutes after midnight (i32); --set takes "HH:MM".
+    Component {
+        id: timeOfDayComponent
+        ValueButton {
+            id: timeButton
+            readonly property int minutesAfterMidnight: {
+                if (typeof root.value === "number") return root.value
+                var h = root.setting ? root.setting.hours : undefined
+                var m = root.setting ? root.setting.minutes : undefined
+                return (typeof h === "number" && typeof m === "number") ? h * 60 + m : -1
+            }
+            function pad(n) { return (n < 10 ? "0" : "") + n }
+            function format(total) {
+                return total < 0 ? "–" : pad(Math.floor(total / 60)) + ":" + pad(total % 60)
+            }
+            label: root.label
+            value: format(minutesAfterMidnight)
+            enabled: !root.pending
+            opacity: root.pending ? 0.6 : 1.0
+            onClicked: {
+                var start = Math.max(0, minutesAfterMidnight)
+                var dialog = pageStack.push("Sailfish.Silica.TimePickerDialog", {
+                    hour: Math.floor(start / 60),
+                    minute: start % 60,
+                    hourMode: DateTime.TwentyFourHours
+                })
+                dialog.accepted.connect(function() {
+                    var total = dialog.hour * 60 + dialog.minute
+                    if (total !== timeButton.minutesAfterMidnight)
+                        root.session.setValue(root.settingId,
+                                              timeButton.pad(dialog.hour) + ":" + timeButton.pad(dialog.minute))
+                })
+            }
+        }
+    }
+
     // ---- information (read only) -----------------------------------------
     Component {
         id: informationComponent
@@ -521,8 +563,13 @@ Item {
                 id: actionIcon
                 x: Theme.horizontalPageMargin
                 anchors.verticalCenter: parent.verticalCenter
-                source: root.settingId.toLowerCase().indexOf("reset") >= 0
-                        ? "image://theme/icon-m-reset" : "image://theme/icon-m-play"
+                source: {
+                    var id = root.settingId.toLowerCase()
+                    if (id.indexOf("reset") >= 0) return "image://theme/icon-m-reset"
+                    if (id.indexOf("delete") >= 0) return "image://theme/icon-m-delete"
+                    if (id.indexOf("create") >= 0) return "image://theme/icon-m-add"
+                    return "image://theme/icon-m-play"
+                }
                 highlighted: actionItem.highlighted
                 opacity: actionItem.enabled ? 1.0 : Theme.opacityLow
             }

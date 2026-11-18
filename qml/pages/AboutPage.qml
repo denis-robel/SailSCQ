@@ -14,7 +14,7 @@ Page {
 
     CliRunner {
         id: versionCli
-        // output: "openscq30 2.12.0"
+        // output: "openscq30 2.13.0"
         onFinished: if (success) page.cliVersion = output.trim().replace(/^openscq30\s*/, "")
     }
 

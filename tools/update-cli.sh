@@ -5,7 +5,7 @@
 # GitHub releases, verifies its GPG signature and installs it to bin/aarch64/.
 #
 #   tools/update-cli.sh            # latest release
-#   tools/update-cli.sh v2.12.0    # specific release
+#   tools/update-cli.sh v2.13.0    # specific release
 #
 # Needs: curl, gpg. Does not use the GitHub API (no rate limit).
 set -eu

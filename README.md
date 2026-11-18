@@ -30,7 +30,7 @@ Bundled third-party components:
 
 ### Structure
 
-The app uses the official `openscq30` CLI (v2.12.0, Rust) as its backend and
+The app uses the official `openscq30` CLI (v2.13.0, Rust) as its backend and
 calls it with `--json` for every action.
 
 ```
@@ -104,7 +104,7 @@ The CLI comes from the official releases
 
 ```
 tools/update-cli.sh            # latest release
-tools/update-cli.sh v2.12.0    # specific release
+tools/update-cli.sh v2.13.0    # specific release
 ```
 
 downloads it, checks the developer's GPG signature (key
@@ -232,7 +232,7 @@ Mitgelieferte Fremdbestandteile:
 
 ### Aufbau
 
-Die App benutzt die offizielle `openscq30`-CLI (v2.12.0, Rust) als Backend
+Die App benutzt die offizielle `openscq30`-CLI (v2.13.0, Rust) als Backend
 und ruft sie für jede Aktion mit `--json` auf.
 
 ```
@@ -305,7 +305,7 @@ Die CLI stammt aus den offiziellen Releases
 
 ```
 tools/update-cli.sh            # neuestes Release
-tools/update-cli.sh v2.12.0    # bestimmtes Release
+tools/update-cli.sh v2.13.0    # bestimmtes Release
 ```
 
 lädt sie herunter, prüft die GPG-Signatur des Entwicklers (Schlüssel
