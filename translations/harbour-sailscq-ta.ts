@@ -158,17 +158,17 @@
 <context>
     <name>CategoryPage</name>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="25"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="80"/>
         <source>Refresh</source>
         <translation>புதுப்பி</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>No settings available</source>
         <translation>அமைப்புகள் எதுவும் இல்லை</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>Not connected</source>
         <translation>இணைக்கப்படவில்லை</translation>
     </message>
@@ -348,17 +348,17 @@
 <context>
     <name>EqualizerEditor</name>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="86"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="133"/>
         <source>Reset</source>
         <translation>மீட்டமை</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Applying…</source>
         <translation>பயன்படுத்துகிறது…</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Apply</source>
         <translation>பயன்படுத்து</translation>
     </message>
@@ -415,108 +415,113 @@
 <context>
     <name>SettingItem</name>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="29"/>
+        <location filename="../qml/components/SettingItem.qml" line="31"/>
         <source>Limits the level to protect your hearing.</source>
         <translation>உங்கள் செவித்திறனைப் பாதுகாக்க ஒலி அளவைக் கட்டுப்படுத்துகிறது.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="30"/>
+        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <source>LDAC can offer higher audio quality, but may increase power consumption and reduce Bluetooth connection stability. Changing modes may require reconnecting the headphones.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="33"/>
         <source>Lower latency for games and videos.</source>
         <translation>விளையாட்டுகள் மற்றும் வீடியோக்களுக்குக் குறைந்த தாமதம்.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="31"/>
+        <location filename="../qml/components/SettingItem.qml" line="34"/>
         <source>Choose the profiles to export.</source>
         <translation>ஏற்றுமதி செய்ய வேண்டிய சுயவிவரங்களைத் தேர்ந்தெடுக்கவும்.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <location filename="../qml/components/SettingItem.qml" line="35"/>
         <source>Connect the headphones to two devices at the same time.</source>
         <translation>ஹெட்ஃபோன்களை ஒரே நேரத்தில் இரண்டு சாதனங்களுடன் இணைக்கவும்.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="33"/>
+        <location filename="../qml/components/SettingItem.qml" line="36"/>
         <source>Devices known to the headphones. Long press to remove one.</source>
         <translation>ஹெட்ஃபோன்களுக்குத் தெரிந்த சாதனங்கள். ஒன்றை அகற்ற நீண்ட நேரம் அழுத்தவும்.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="124"/>
-        <location filename="../qml/components/SettingItem.qml" line="162"/>
+        <location filename="../qml/components/SettingItem.qml" line="157"/>
+        <location filename="../qml/components/SettingItem.qml" line="201"/>
         <source>Applying…</source>
         <translation>பயன்படுத்துகிறது…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="134"/>
+        <location filename="../qml/components/SettingItem.qml" line="173"/>
         <source>None</source>
         <translation>எதுவுமில்லை</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="181"/>
+        <location filename="../qml/components/SettingItem.qml" line="220"/>
         <source>Save as…</source>
         <translation>இவ்வாறு சேமி…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="185"/>
+        <location filename="../qml/components/SettingItem.qml" line="224"/>
         <source>New profile</source>
         <translation>புதிய சுயவிவரம்</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="186"/>
+        <location filename="../qml/components/SettingItem.qml" line="225"/>
         <source>Name</source>
         <translation>பெயர்</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="188"/>
+        <location filename="../qml/components/SettingItem.qml" line="227"/>
         <source>Saves the current equalizer values as a new profile.</source>
         <translation>தற்போதைய ஈக்வலைசர் மதிப்புகளைப் புதிய சுயவிவரமாகச் சேமிக்கிறது.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="198"/>
+        <location filename="../qml/components/SettingItem.qml" line="237"/>
         <source>Delete</source>
         <translation>நீக்கு</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="202"/>
+        <location filename="../qml/components/SettingItem.qml" line="241"/>
         <source>Deleting %1</source>
         <translation>%1 நீக்கப்படுகிறது</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="286"/>
+        <location filename="../qml/components/SettingItem.qml" line="325"/>
         <source>Remove</source>
         <translation>அகற்று</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="315"/>
+        <location filename="../qml/components/SettingItem.qml" line="354"/>
         <source>connected</source>
         <translation>இணைக்கப்பட்டது</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="328"/>
+        <location filename="../qml/components/SettingItem.qml" line="367"/>
         <source>No devices</source>
         <translation>சாதனங்கள் இல்லை</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="440"/>
+        <location filename="../qml/components/SettingItem.qml" line="517"/>
         <source>Yes</source>
         <translation>ஆம்</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="441"/>
+        <location filename="../qml/components/SettingItem.qml" line="518"/>
         <source>No</source>
         <translation>இல்லை</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="473"/>
+        <location filename="../qml/components/SettingItem.qml" line="550"/>
         <source>Copy</source>
         <translation>நகலெடு</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="489"/>
+        <location filename="../qml/components/SettingItem.qml" line="566"/>
         <source>Paste text to import</source>
         <translation>இறக்குமதி செய்ய உரையை ஒட்டவும்</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="494"/>
+        <location filename="../qml/components/SettingItem.qml" line="571"/>
         <source>Import</source>
         <translation>இறக்குமதி</translation>
     </message>
@@ -554,12 +559,12 @@
         <translation>சார்ஜிங் பெட்டி, பேட்டரி இடது/வலது/பெட்டி, பெரும்பாலும் இரைச்சல் நீக்கம் மற்றும் பொத்தான் அமைப்பு</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="112"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="120"/>
         <source>Supported devices</source>
         <translation>ஆதரிக்கப்படும் சாதனங்கள்</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="115"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="123"/>
         <source>%n models · OpenSCQ30 %1</source>
         <translation>
             <numerusform>மாடல்கள்: %n · OpenSCQ30 %1</numerusform>
@@ -567,8 +572,8 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="116"/>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="166"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="124"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="174"/>
         <source>%n models</source>
         <translation>
             <numerusform>மாடல்கள்: %n</numerusform>
@@ -576,12 +581,12 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="121"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="129"/>
         <source>Search model</source>
         <translation>மாடலைத் தேடு</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="210"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="218"/>
         <source>No matching model</source>
         <translation>பொருந்தும் மாடல் இல்லை</translation>
     </message>

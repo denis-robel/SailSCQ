@@ -158,17 +158,17 @@
 <context>
     <name>CategoryPage</name>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="25"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="80"/>
         <source>Refresh</source>
         <translation>Яңарту</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>No settings available</source>
         <translation>Көйләүләр юк</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>Not connected</source>
         <translation>Тоташмаган</translation>
     </message>
@@ -348,17 +348,17 @@
 <context>
     <name>EqualizerEditor</name>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="86"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="133"/>
         <source>Reset</source>
         <translation>Ташлату</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Applying…</source>
         <translation>Куллану…</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Apply</source>
         <translation>Куллану</translation>
     </message>
@@ -415,108 +415,113 @@
 <context>
     <name>SettingItem</name>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="29"/>
+        <location filename="../qml/components/SettingItem.qml" line="31"/>
         <source>Limits the level to protect your hearing.</source>
         <translation>Ишетүне саклау өчен тавыш көчен чикли.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="30"/>
+        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <source>LDAC can offer higher audio quality, but may increase power consumption and reduce Bluetooth connection stability. Changing modes may require reconnecting the headphones.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="33"/>
         <source>Lower latency for games and videos.</source>
         <translation>Уеннар һәм видео өчен кимрәк тоткарлану.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="31"/>
+        <location filename="../qml/components/SettingItem.qml" line="34"/>
         <source>Choose the profiles to export.</source>
         <translation>Экспорт өчен профильләрне сайлагыз.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <location filename="../qml/components/SettingItem.qml" line="35"/>
         <source>Connect the headphones to two devices at the same time.</source>
         <translation>Колакчыннарны бер үк вакытта ике җайланмага тоташтыру.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="33"/>
+        <location filename="../qml/components/SettingItem.qml" line="36"/>
         <source>Devices known to the headphones. Long press to remove one.</source>
         <translation>Колакчыннарга билгеле җайланмалар. Берсен бетерү өчен озак басыгыз.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="124"/>
-        <location filename="../qml/components/SettingItem.qml" line="162"/>
+        <location filename="../qml/components/SettingItem.qml" line="157"/>
+        <location filename="../qml/components/SettingItem.qml" line="201"/>
         <source>Applying…</source>
         <translation>Куллану…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="134"/>
+        <location filename="../qml/components/SettingItem.qml" line="173"/>
         <source>None</source>
         <translation>Юк</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="181"/>
+        <location filename="../qml/components/SettingItem.qml" line="220"/>
         <source>Save as…</source>
         <translation>Башкача саклау…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="185"/>
+        <location filename="../qml/components/SettingItem.qml" line="224"/>
         <source>New profile</source>
         <translation>Яңа профиль</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="186"/>
+        <location filename="../qml/components/SettingItem.qml" line="225"/>
         <source>Name</source>
         <translation>Исем</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="188"/>
+        <location filename="../qml/components/SettingItem.qml" line="227"/>
         <source>Saves the current equalizer values as a new profile.</source>
         <translation>Эквалайзерның хәзерге кыйммәтләрен яңа профиль итеп саклый.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="198"/>
+        <location filename="../qml/components/SettingItem.qml" line="237"/>
         <source>Delete</source>
         <translation>Бетерү</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="202"/>
+        <location filename="../qml/components/SettingItem.qml" line="241"/>
         <source>Deleting %1</source>
         <translation>%1 бетерелә</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="286"/>
+        <location filename="../qml/components/SettingItem.qml" line="325"/>
         <source>Remove</source>
         <translation>Бетерү</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="315"/>
+        <location filename="../qml/components/SettingItem.qml" line="354"/>
         <source>connected</source>
         <translation>тоташкан</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="328"/>
+        <location filename="../qml/components/SettingItem.qml" line="367"/>
         <source>No devices</source>
         <translation>Җайланмалар юк</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="440"/>
+        <location filename="../qml/components/SettingItem.qml" line="517"/>
         <source>Yes</source>
         <translation>Әйе</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="441"/>
+        <location filename="../qml/components/SettingItem.qml" line="518"/>
         <source>No</source>
         <translation>Юк</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="473"/>
+        <location filename="../qml/components/SettingItem.qml" line="550"/>
         <source>Copy</source>
         <translation>Күчереп алу</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="489"/>
+        <location filename="../qml/components/SettingItem.qml" line="566"/>
         <source>Paste text to import</source>
         <translation>Импорт өчен текстны кертегез</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="494"/>
+        <location filename="../qml/components/SettingItem.qml" line="571"/>
         <source>Import</source>
         <translation>Импорт</translation>
     </message>
@@ -554,32 +559,32 @@
         <translation>Корылау футляры, батарея сул/уң/футляр, еш кына шау-шуны басу һәм төймәләр көйләүләре</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="112"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="120"/>
         <source>Supported devices</source>
         <translation>Ярдәм ителгән җайланмалар</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="115"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="123"/>
         <source>%n models · OpenSCQ30 %1</source>
         <translation>
             <numerusform>Модельләр: %n · OpenSCQ30 %1</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="116"/>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="166"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="124"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="174"/>
         <source>%n models</source>
         <translation>
             <numerusform>Модельләр: %n</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="121"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="129"/>
         <source>Search model</source>
         <translation>Модель эзләү</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="210"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="218"/>
         <source>No matching model</source>
         <translation>Туры килгән модель юк</translation>
     </message>

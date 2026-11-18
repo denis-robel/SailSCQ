@@ -158,17 +158,17 @@
 <context>
     <name>CategoryPage</name>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="25"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="80"/>
         <source>Refresh</source>
         <translation>重新整理</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>No settings available</source>
         <translation>沒有可用的設定</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>Not connected</source>
         <translation>未連線</translation>
     </message>
@@ -348,17 +348,17 @@
 <context>
     <name>EqualizerEditor</name>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="86"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="133"/>
         <source>Reset</source>
         <translation>重設</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Applying…</source>
         <translation>套用中…</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Apply</source>
         <translation>套用</translation>
     </message>
@@ -415,108 +415,113 @@
 <context>
     <name>SettingItem</name>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="29"/>
+        <location filename="../qml/components/SettingItem.qml" line="31"/>
         <source>Limits the level to protect your hearing.</source>
         <translation>限制音量以保護聽力。</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="30"/>
+        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <source>LDAC can offer higher audio quality, but may increase power consumption and reduce Bluetooth connection stability. Changing modes may require reconnecting the headphones.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="33"/>
         <source>Lower latency for games and videos.</source>
         <translation>降低遊戲和影片的延遲。</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="31"/>
+        <location filename="../qml/components/SettingItem.qml" line="34"/>
         <source>Choose the profiles to export.</source>
         <translation>選擇要匯出的設定檔。</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <location filename="../qml/components/SettingItem.qml" line="35"/>
         <source>Connect the headphones to two devices at the same time.</source>
         <translation>讓耳機同時連線兩台裝置。</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="33"/>
+        <location filename="../qml/components/SettingItem.qml" line="36"/>
         <source>Devices known to the headphones. Long press to remove one.</source>
         <translation>耳機已知的裝置。長按可移除。</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="124"/>
-        <location filename="../qml/components/SettingItem.qml" line="162"/>
+        <location filename="../qml/components/SettingItem.qml" line="157"/>
+        <location filename="../qml/components/SettingItem.qml" line="201"/>
         <source>Applying…</source>
         <translation>套用中…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="134"/>
+        <location filename="../qml/components/SettingItem.qml" line="173"/>
         <source>None</source>
         <translation>無</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="181"/>
+        <location filename="../qml/components/SettingItem.qml" line="220"/>
         <source>Save as…</source>
         <translation>另存為…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="185"/>
+        <location filename="../qml/components/SettingItem.qml" line="224"/>
         <source>New profile</source>
         <translation>新設定檔</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="186"/>
+        <location filename="../qml/components/SettingItem.qml" line="225"/>
         <source>Name</source>
         <translation>名稱</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="188"/>
+        <location filename="../qml/components/SettingItem.qml" line="227"/>
         <source>Saves the current equalizer values as a new profile.</source>
         <translation>將目前的等化器數值儲存為新的設定檔。</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="198"/>
+        <location filename="../qml/components/SettingItem.qml" line="237"/>
         <source>Delete</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="202"/>
+        <location filename="../qml/components/SettingItem.qml" line="241"/>
         <source>Deleting %1</source>
         <translation>正在刪除 %1</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="286"/>
+        <location filename="../qml/components/SettingItem.qml" line="325"/>
         <source>Remove</source>
         <translation>移除</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="315"/>
+        <location filename="../qml/components/SettingItem.qml" line="354"/>
         <source>connected</source>
         <translation>已連線</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="328"/>
+        <location filename="../qml/components/SettingItem.qml" line="367"/>
         <source>No devices</source>
         <translation>沒有裝置</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="440"/>
+        <location filename="../qml/components/SettingItem.qml" line="517"/>
         <source>Yes</source>
         <translation>是</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="441"/>
+        <location filename="../qml/components/SettingItem.qml" line="518"/>
         <source>No</source>
         <translation>否</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="473"/>
+        <location filename="../qml/components/SettingItem.qml" line="550"/>
         <source>Copy</source>
         <translation>複製</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="489"/>
+        <location filename="../qml/components/SettingItem.qml" line="566"/>
         <source>Paste text to import</source>
         <translation>貼上要匯入的文字</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="494"/>
+        <location filename="../qml/components/SettingItem.qml" line="571"/>
         <source>Import</source>
         <translation>匯入</translation>
     </message>
@@ -554,32 +559,32 @@
         <translation>充電盒、左/右/充電盒電量，通常支援降噪和按鍵設定</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="112"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="120"/>
         <source>Supported devices</source>
         <translation>支援的裝置</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="115"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="123"/>
         <source>%n models · OpenSCQ30 %1</source>
         <translation>
             <numerusform>型號數：%n · OpenSCQ30 %1</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="116"/>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="166"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="124"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="174"/>
         <source>%n models</source>
         <translation>
             <numerusform>型號數：%n</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="121"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="129"/>
         <source>Search model</source>
         <translation>搜尋型號</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="210"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="218"/>
         <source>No matching model</source>
         <translation>沒有符合的型號</translation>
     </message>

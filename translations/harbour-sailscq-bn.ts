@@ -158,17 +158,17 @@
 <context>
     <name>CategoryPage</name>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="25"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="80"/>
         <source>Refresh</source>
         <translation>রিফ্রেশ</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>No settings available</source>
         <translation>কোনো সেটিং উপলব্ধ নেই</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>Not connected</source>
         <translation>সংযুক্ত নয়</translation>
     </message>
@@ -348,17 +348,17 @@
 <context>
     <name>EqualizerEditor</name>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="86"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="133"/>
         <source>Reset</source>
         <translation>রিসেট</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Applying…</source>
         <translation>প্রয়োগ হচ্ছে…</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Apply</source>
         <translation>প্রয়োগ করুন</translation>
     </message>
@@ -415,108 +415,113 @@
 <context>
     <name>SettingItem</name>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="29"/>
+        <location filename="../qml/components/SettingItem.qml" line="31"/>
         <source>Limits the level to protect your hearing.</source>
         <translation>আপনার শ্রবণশক্তি রক্ষায় শব্দের মাত্রা সীমিত করে।</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="30"/>
+        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <source>LDAC can offer higher audio quality, but may increase power consumption and reduce Bluetooth connection stability. Changing modes may require reconnecting the headphones.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="33"/>
         <source>Lower latency for games and videos.</source>
         <translation>গেম ও ভিডিওর জন্য কম বিলম্ব।</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="31"/>
+        <location filename="../qml/components/SettingItem.qml" line="34"/>
         <source>Choose the profiles to export.</source>
         <translation>রপ্তানির জন্য প্রোফাইল বেছে নিন।</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <location filename="../qml/components/SettingItem.qml" line="35"/>
         <source>Connect the headphones to two devices at the same time.</source>
         <translation>হেডফোন একসঙ্গে দুটি ডিভাইসে সংযুক্ত করুন।</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="33"/>
+        <location filename="../qml/components/SettingItem.qml" line="36"/>
         <source>Devices known to the headphones. Long press to remove one.</source>
         <translation>হেডফোনের পরিচিত ডিভাইস। একটি সরাতে দীর্ঘক্ষণ চাপুন।</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="124"/>
-        <location filename="../qml/components/SettingItem.qml" line="162"/>
+        <location filename="../qml/components/SettingItem.qml" line="157"/>
+        <location filename="../qml/components/SettingItem.qml" line="201"/>
         <source>Applying…</source>
         <translation>প্রয়োগ হচ্ছে…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="134"/>
+        <location filename="../qml/components/SettingItem.qml" line="173"/>
         <source>None</source>
         <translation>কোনোটিই নয়</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="181"/>
+        <location filename="../qml/components/SettingItem.qml" line="220"/>
         <source>Save as…</source>
         <translation>হিসেবে সংরক্ষণ…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="185"/>
+        <location filename="../qml/components/SettingItem.qml" line="224"/>
         <source>New profile</source>
         <translation>নতুন প্রোফাইল</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="186"/>
+        <location filename="../qml/components/SettingItem.qml" line="225"/>
         <source>Name</source>
         <translation>নাম</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="188"/>
+        <location filename="../qml/components/SettingItem.qml" line="227"/>
         <source>Saves the current equalizer values as a new profile.</source>
         <translation>বর্তমান ইকুয়ালাইজার মানগুলো নতুন প্রোফাইল হিসেবে সংরক্ষণ করে।</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="198"/>
+        <location filename="../qml/components/SettingItem.qml" line="237"/>
         <source>Delete</source>
         <translation>মুছুন</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="202"/>
+        <location filename="../qml/components/SettingItem.qml" line="241"/>
         <source>Deleting %1</source>
         <translation>%1 মোছা হচ্ছে</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="286"/>
+        <location filename="../qml/components/SettingItem.qml" line="325"/>
         <source>Remove</source>
         <translation>সরান</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="315"/>
+        <location filename="../qml/components/SettingItem.qml" line="354"/>
         <source>connected</source>
         <translation>সংযুক্ত</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="328"/>
+        <location filename="../qml/components/SettingItem.qml" line="367"/>
         <source>No devices</source>
         <translation>কোনো ডিভাইস নেই</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="440"/>
+        <location filename="../qml/components/SettingItem.qml" line="517"/>
         <source>Yes</source>
         <translation>হ্যাঁ</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="441"/>
+        <location filename="../qml/components/SettingItem.qml" line="518"/>
         <source>No</source>
         <translation>না</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="473"/>
+        <location filename="../qml/components/SettingItem.qml" line="550"/>
         <source>Copy</source>
         <translation>কপি</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="489"/>
+        <location filename="../qml/components/SettingItem.qml" line="566"/>
         <source>Paste text to import</source>
         <translation>আমদানির জন্য টেক্সট পেস্ট করুন</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="494"/>
+        <location filename="../qml/components/SettingItem.qml" line="571"/>
         <source>Import</source>
         <translation>আমদানি</translation>
     </message>
@@ -554,12 +559,12 @@
         <translation>চার্জিং কেস, ব্যাটারি বাম/ডান/কেস, প্রায়ই নয়েজ ক্যান্সেলিং ও বোতাম কনফিগারেশন</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="112"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="120"/>
         <source>Supported devices</source>
         <translation>সমর্থিত ডিভাইস</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="115"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="123"/>
         <source>%n models · OpenSCQ30 %1</source>
         <translation>
             <numerusform>মডেল: %n · OpenSCQ30 %1</numerusform>
@@ -567,8 +572,8 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="116"/>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="166"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="124"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="174"/>
         <source>%n models</source>
         <translation>
             <numerusform>মডেল: %n</numerusform>
@@ -576,12 +581,12 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="121"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="129"/>
         <source>Search model</source>
         <translation>মডেল খুঁজুন</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="210"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="218"/>
         <source>No matching model</source>
         <translation>মিলে যাওয়া কোনো মডেল নেই</translation>
     </message>

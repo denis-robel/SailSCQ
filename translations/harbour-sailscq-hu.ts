@@ -158,17 +158,17 @@
 <context>
     <name>CategoryPage</name>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="25"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="80"/>
         <source>Refresh</source>
         <translation>Frissítés</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>No settings available</source>
         <translation>Nincsenek elérhető beállítások</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CategoryPage.qml" line="63"/>
+        <location filename="../qml/pages/CategoryPage.qml" line="119"/>
         <source>Not connected</source>
         <translation>Nincs csatlakoztatva</translation>
     </message>
@@ -348,17 +348,17 @@
 <context>
     <name>EqualizerEditor</name>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="86"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="133"/>
         <source>Reset</source>
         <translation>Visszaállítás</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Applying…</source>
         <translation>Alkalmazás…</translation>
     </message>
     <message>
-        <location filename="../qml/components/EqualizerEditor.qml" line="94"/>
+        <location filename="../qml/components/EqualizerEditor.qml" line="141"/>
         <source>Apply</source>
         <translation>Alkalmaz</translation>
     </message>
@@ -415,108 +415,113 @@
 <context>
     <name>SettingItem</name>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="29"/>
+        <location filename="../qml/components/SettingItem.qml" line="31"/>
         <source>Limits the level to protect your hearing.</source>
         <translation>Korlátozza a hangerőt a hallás védelmében.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="30"/>
+        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <source>LDAC can offer higher audio quality, but may increase power consumption and reduce Bluetooth connection stability. Changing modes may require reconnecting the headphones.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingItem.qml" line="33"/>
         <source>Lower latency for games and videos.</source>
         <translation>Kisebb késleltetés játékokhoz és videókhoz.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="31"/>
+        <location filename="../qml/components/SettingItem.qml" line="34"/>
         <source>Choose the profiles to export.</source>
         <translation>Válassza ki az exportálandó profilokat.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="32"/>
+        <location filename="../qml/components/SettingItem.qml" line="35"/>
         <source>Connect the headphones to two devices at the same time.</source>
         <translation>A fejhallgató egyszerre két eszközhöz csatlakozik.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="33"/>
+        <location filename="../qml/components/SettingItem.qml" line="36"/>
         <source>Devices known to the headphones. Long press to remove one.</source>
         <translation>A fejhallgató által ismert eszközök. Hosszú nyomással eltávolíthat egyet.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="124"/>
-        <location filename="../qml/components/SettingItem.qml" line="162"/>
+        <location filename="../qml/components/SettingItem.qml" line="157"/>
+        <location filename="../qml/components/SettingItem.qml" line="201"/>
         <source>Applying…</source>
         <translation>Alkalmazás…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="134"/>
+        <location filename="../qml/components/SettingItem.qml" line="173"/>
         <source>None</source>
         <translation>Nincs</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="181"/>
+        <location filename="../qml/components/SettingItem.qml" line="220"/>
         <source>Save as…</source>
         <translation>Mentés másként…</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="185"/>
+        <location filename="../qml/components/SettingItem.qml" line="224"/>
         <source>New profile</source>
         <translation>Új profil</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="186"/>
+        <location filename="../qml/components/SettingItem.qml" line="225"/>
         <source>Name</source>
         <translation>Név</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="188"/>
+        <location filename="../qml/components/SettingItem.qml" line="227"/>
         <source>Saves the current equalizer values as a new profile.</source>
         <translation>Új profilként menti a hangszínszabályzó jelenlegi értékeit.</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="198"/>
+        <location filename="../qml/components/SettingItem.qml" line="237"/>
         <source>Delete</source>
         <translation>Törlés</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="202"/>
+        <location filename="../qml/components/SettingItem.qml" line="241"/>
         <source>Deleting %1</source>
         <translation>Törlés: %1</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="286"/>
+        <location filename="../qml/components/SettingItem.qml" line="325"/>
         <source>Remove</source>
         <translation>Eltávolítás</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="315"/>
+        <location filename="../qml/components/SettingItem.qml" line="354"/>
         <source>connected</source>
         <translation>csatlakoztatva</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="328"/>
+        <location filename="../qml/components/SettingItem.qml" line="367"/>
         <source>No devices</source>
         <translation>Nincsenek eszközök</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="440"/>
+        <location filename="../qml/components/SettingItem.qml" line="517"/>
         <source>Yes</source>
         <translation>Igen</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="441"/>
+        <location filename="../qml/components/SettingItem.qml" line="518"/>
         <source>No</source>
         <translation>Nem</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="473"/>
+        <location filename="../qml/components/SettingItem.qml" line="550"/>
         <source>Copy</source>
         <translation>Másolás</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="489"/>
+        <location filename="../qml/components/SettingItem.qml" line="566"/>
         <source>Paste text to import</source>
         <translation>Illessze be az importálandó szöveget</translation>
     </message>
     <message>
-        <location filename="../qml/components/SettingItem.qml" line="494"/>
+        <location filename="../qml/components/SettingItem.qml" line="571"/>
         <source>Import</source>
         <translation>Importálás</translation>
     </message>
@@ -554,32 +559,32 @@
         <translation>Töltőtok, akkumulátor bal/jobb/tok, gyakran zajszűrés és gombbeállítás</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="112"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="120"/>
         <source>Supported devices</source>
         <translation>Támogatott eszközök</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="115"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="123"/>
         <source>%n models · OpenSCQ30 %1</source>
         <translation>
             <numerusform>Modellek: %n · OpenSCQ30 %1</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="116"/>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="166"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="124"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="174"/>
         <source>%n models</source>
         <translation>
             <numerusform>Modellek: %n</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="121"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="129"/>
         <source>Search model</source>
         <translation>Modell keresése</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SupportedDevicesPage.qml" line="210"/>
+        <location filename="../qml/pages/SupportedDevicesPage.qml" line="218"/>
         <source>No matching model</source>
         <translation>Nincs egyező modell</translation>
     </message>

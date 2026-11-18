@@ -8,6 +8,16 @@
 - Namen der Einstellungen aus OpenSCQ30 2.13.0 übernommen (u. a. Russisch
   deutlich vollständiger), deutsche Namen für alle neuen Einstellungen
 - Q11i wird als Over-Ear-Kopfhörer angezeigt
+- Tschechische Übersetzung vollständig (PR #1, Michal Kasík)
+- Bessere Bedienung (PR #2, Michal Kasík):
+  - Equalizer: Frequenz links und dB-Wert rechts neben dem Regler; der linke
+    Rand bleibt frei für die Zurück-Wischgeste
+  - Geräuschmodi: nur die Einstellungen, die zum gewählten Modus passen
+    (ANC, Transparenz, manuell oder Verkehrsmittel)
+  - Bezeichnung über dem Regler für die manuelle Geräuschunterdrückung
+  - Automatisches Ausschalten übersetzt und ans Ende von "Sonstiges" verschoben
+  - Erklärung zu LDAC (Klangqualität, Akku, Verbindungsstabilität)
+  - "Unterstützte Geräte": Abstand für die Kamera-Aussparung im Hochformat
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.22-1
 - Nach einem fehlgeschlagenen Verbindungsversuch keine automatischen Wiederholungen
