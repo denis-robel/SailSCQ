@@ -1,163 +1,329 @@
 * Wed Nov 18 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.23-1
-- OpenSCQ30-CLI 2.13.0: neue Modelle Soundcore Q11i, C30i, AeroClip und Liberty 4
-- Wecker für den Sleep A30: neuer Einstellungstyp "Uhrzeit" mit Zeitauswahl,
-  Wecker hinzufügen/löschen, "Automatisch umschalten beim Einschlafen"
-- Neue Einstellungen (je nach Modell): Druckempfindlichkeit, Ansage des Umgebungsmodus,
-  Tastenbelegung während eines Anrufs
-- Hinweis im Equalizer, wenn nur ein Earbud verbunden ist (aus OpenSCQ30)
-- Namen der Einstellungen aus OpenSCQ30 2.13.0 übernommen (u. a. Russisch
-  deutlich vollständiger), deutsche Namen für alle neuen Einstellungen
-- Q11i wird als Over-Ear-Kopfhörer angezeigt
-- Tschechische Übersetzung vollständig (PR #1, Michal Kasík)
-- Bessere Bedienung (PR #2, Michal Kasík):
-  - Equalizer: Frequenz links und dB-Wert rechts neben dem Regler; der linke
-    Rand bleibt frei für die Zurück-Wischgeste
-  - Geräuschmodi: nur die Einstellungen, die zum gewählten Modus passen
-    (ANC, Transparenz, manuell oder Verkehrsmittel)
-  - Bezeichnung über dem Regler für die manuelle Geräuschunterdrückung
-  - Automatisches Ausschalten übersetzt und ans Ende von "Sonstiges" verschoben
-  - Erklärung zu LDAC (Klangqualität, Akku, Verbindungsstabilität)
-  - "Unterstützte Geräte": Abstand für die Kamera-Aussparung im Hochformat
+- English:
+  - OpenSCQ30 CLI 2.13.0: new models Soundcore Q11i, C30i, AeroClip and Liberty 4
+  - Alarms for the Sleep A30: new setting type "time of day" with a time picker,
+    add/delete alarms, "Auto-switch once asleep"
+  - New settings (depending on the model): press sensitivity, ambient sound prompt,
+    button actions during a call
+  - Hint in the equalizer when only one earbud is connected (from OpenSCQ30)
+  - Setting names taken from OpenSCQ30 2.13.0 (Russian much more complete, among
+    others), German names for all new settings
+  - Q11i is shown as over-ear headphones
+  - Complete Czech translation (PR #1, Michal Kasík)
+  - Better usability (PR #2, Michal Kasík):
+    - Equalizer: frequency on the left and dB value on the right of the slider;
+      the left edge stays free for the swipe-back gesture
+    - Sound modes: only the settings that fit the selected mode
+      (ANC, transparency, manual or transportation)
+    - Label above the slider for manual noise canceling
+    - Automatic power off translated and moved to the end of "Miscellaneous"
+    - Explanation of LDAC (sound quality, battery, connection stability)
+    - "Supported devices": space for the camera cutout in portrait mode
+- Deutsch:
+  - OpenSCQ30-CLI 2.13.0: neue Modelle Soundcore Q11i, C30i, AeroClip und Liberty 4
+  - Wecker für den Sleep A30: neuer Einstellungstyp "Uhrzeit" mit Zeitauswahl,
+    Wecker hinzufügen/löschen, "Automatisch umschalten beim Einschlafen"
+  - Neue Einstellungen (je nach Modell): Druckempfindlichkeit, Ansage des Umgebungsmodus,
+    Tastenbelegung während eines Anrufs
+  - Hinweis im Equalizer, wenn nur ein Earbud verbunden ist (aus OpenSCQ30)
+  - Namen der Einstellungen aus OpenSCQ30 2.13.0 übernommen (u. a. Russisch
+    deutlich vollständiger), deutsche Namen für alle neuen Einstellungen
+  - Q11i wird als Over-Ear-Kopfhörer angezeigt
+  - Tschechische Übersetzung vollständig (PR #1, Michal Kasík)
+  - Bessere Bedienung (PR #2, Michal Kasík):
+    - Equalizer: Frequenz links und dB-Wert rechts neben dem Regler; der linke
+      Rand bleibt frei für die Zurück-Wischgeste
+    - Geräuschmodi: nur die Einstellungen, die zum gewählten Modus passen
+      (ANC, Transparenz, manuell oder Verkehrsmittel)
+    - Bezeichnung über dem Regler für die manuelle Geräuschunterdrückung
+    - Automatisches Ausschalten übersetzt und ans Ende von "Sonstiges" verschoben
+    - Erklärung zu LDAC (Klangqualität, Akku, Verbindungsstabilität)
+    - "Unterstützte Geräte": Abstand für die Kamera-Aussparung im Hochformat
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.22-1
-- Nach einem fehlgeschlagenen Verbindungsversuch keine automatischen Wiederholungen
-  mehr (Cover, regelmäßige Aktualisierung), bis man selbst neu verbindet oder die
-  App neu startet; viele fehlschlagende Verbindungen können den Bluetooth-Dienst
-  des Telefons stören
-- Gilt auch, wenn ein verbundenes Gerät verschwindet (ausgeschaltet, außer Reichweite)
+- English:
+  - After a failed connection attempt, no more automatic retries (cover, periodic
+    refresh) until you reconnect by hand or restart the app; many failing
+    connections can disturb the phone's Bluetooth service
+  - Also applies when a connected device disappears (switched off, out of range)
+- Deutsch:
+  - Nach einem fehlgeschlagenen Verbindungsversuch keine automatischen Wiederholungen
+    mehr (Cover, regelmäßige Aktualisierung), bis man selbst neu verbindet oder die
+    App neu startet; viele fehlschlagende Verbindungen können den Bluetooth-Dienst
+    des Telefons stören
+  - Gilt auch, wenn ein verbundenes Gerät verschwindet (ausgeschaltet, außer Reichweite)
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.21-1
-- Fix: Info-Seite zeigte nach "sfdk build" eine veraltete Versionsnummer
-  (Version kommt jetzt aus einem von qmake erzeugten version.h statt aus einer
-  Compiler-Definition, die make bei Änderungen nicht bemerkt)
+- English:
+  - Fix: the about page showed an outdated version number after "sfdk build"
+    (the version now comes from a version.h generated by qmake instead of a
+    compiler definition whose changes make does not notice)
+- Deutsch:
+  - Fix: Info-Seite zeigte nach "sfdk build" eine veraltete Versionsnummer
+    (Version kommt jetzt aus einem von qmake erzeugten version.h statt aus einer
+    Compiler-Definition, die make bei Änderungen nicht bemerkt)
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.20-1
-- Cover-Umschaltknopf auch für den Sleep A30 (Hörmodus statt Umgebungsgeräusch-Modus)
-  und automatisch für künftige Modelle mit anderer Moduseinstellung
-- Cover zeigt über dem Wert, welcher Modus umgeschaltet wird
-- "Hörmodus" und "Lokal" in allen 39 Sprachen
-- Korrigiert: spanischer "Hörmodus" und französische "Sound-Modi" aus OpenSCQ30
+- English:
+  - Cover toggle button also for the Sleep A30 (listening mode instead of ambient
+    sound mode) and automatically for future models with a different mode setting
+  - The cover shows above the value which mode is switched
+  - "Listening mode" and "Local" in all 39 languages
+  - Fixed: Spanish "listening mode" and French "sound modes" from OpenSCQ30
+- Deutsch:
+  - Cover-Umschaltknopf auch für den Sleep A30 (Hörmodus statt Umgebungsgeräusch-Modus)
+    und automatisch für künftige Modelle mit anderer Moduseinstellung
+  - Cover zeigt über dem Wert, welcher Modus umgeschaltet wird
+  - "Hörmodus" und "Lokal" in allen 39 Sprachen
+  - Korrigiert: spanischer "Hörmodus" und französische "Sound-Modi" aus OpenSCQ30
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.19-1
-- Übersetzungen in alle 39 Sailfish-OS-Sprachen; die App folgt der Sprache des Telefons
-- Einstellungsnamen aus allen passenden OpenSCQ30-Übersetzungen (nicht mehr nur Deutsch),
-  Kategorien und Sound-Modi für jede Sprache
-- Kurzbeschreibungen der Einstellungen über das Qt-Übersetzungssystem
-- Beschreibung im App-Menü in allen Sprachen
+- English:
+  - Translations into all 39 Sailfish OS languages; the app follows the phone's language
+  - Setting names from all matching OpenSCQ30 translations (no longer German only),
+    categories and sound modes for every language
+  - Short descriptions of the settings via the Qt translation system
+  - Description in the app menu in all languages
+- Deutsch:
+  - Übersetzungen in alle 39 Sailfish-OS-Sprachen; die App folgt der Sprache des Telefons
+  - Einstellungsnamen aus allen passenden OpenSCQ30-Übersetzungen (nicht mehr nur Deutsch),
+    Kategorien und Sound-Modi für jede Sprache
+  - Kurzbeschreibungen der Einstellungen über das Qt-Übersetzungssystem
+  - Beschreibung im App-Menü in allen Sprachen
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.18-1
-- Auswahlwerte auf Deutsch: die openscq30-CLI liefert sie immer englisch
-  ("Noise Canceling", "Play Pause", ...), die App übersetzt sie jetzt selbst,
-  auch auf dem Cover; eigene Profil- und Gerätenamen bleiben unverändert
-- Deutsche Namen für alle 106 Einstellungen und 49 fehlende Auswahlwerte
-  (Wochentage, Lichteffekte, Equalizer-Voreinstellungen, ...), Minutenangaben
+- English:
+  - Option values in German: the openscq30 CLI always reports them in English
+    ("Noise Canceling", "Play Pause", ...), the app now translates them itself,
+    also on the cover; your own profile and device names stay unchanged
+  - German names for all 106 settings and 49 missing option values
+    (weekdays, light effects, equalizer presets, ...), minute values
+- Deutsch:
+  - Auswahlwerte auf Deutsch: die openscq30-CLI liefert sie immer englisch
+    ("Noise Canceling", "Play Pause", ...), die App übersetzt sie jetzt selbst,
+    auch auf dem Cover; eigene Profil- und Gerätenamen bleiben unverändert
+  - Deutsche Namen für alle 106 Einstellungen und 49 fehlende Auswahlwerte
+    (Wochentage, Lichteffekte, Equalizer-Voreinstellungen, ...), Minutenangaben
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.17-1
-- Akkuanzeige gegen Randwerte abgesichert (höchstens 100 % bzw. maximale Stufe)
+- English:
+  - Battery display protected against edge values (at most 100 % or the highest level)
+- Deutsch:
+  - Akkuanzeige gegen Randwerte abgesichert (höchstens 100 % bzw. maximale Stufe)
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.16-1
-- Geräteseite: grafische Batteriesymbole für links/rechts/Hülle, in Segmente
-  nach den Stufen des Geräts geteilt, rot ab 20 %
-- Beim Laden Blitz im Batteriesymbol, das nächste Segment pulsiert
+- English:
+  - Device page: graphical battery icons for left/right/case, split into segments
+    by the device's levels, red from 20 %
+  - Lightning bolt in the battery icon while charging, the next segment pulses
+- Deutsch:
+  - Geräteseite: grafische Batteriesymbole für links/rechts/Hülle, in Segmente
+    nach den Stufen des Geräts geteilt, rot ab 20 %
+  - Beim Laden Blitz im Batteriesymbol, das nächste Segment pulsiert
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.15-1
-- Quellcode-Adresse https://github.com/denis-robel/SailSCQ auf der Info-Seite und in der Spec
-- Name und Kontakt des Autors eingetragen
+- English:
+  - Source code address https://github.com/denis-robel/SailSCQ on the about page and in the spec
+  - Author's name and contact added
+- Deutsch:
+  - Quellcode-Adresse https://github.com/denis-robel/SailSCQ auf der Info-Seite und in der Spec
+  - Name und Kontakt des Autors eingetragen
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.14-1
-- Neue Seite "Über SailSCQ" (Pull-down-Menü der Geräteverwaltung): Version,
-  enthaltene OpenSCQ30-Version, Credits, Lizenz, Links
-- Lizenzseite mit dem vollständigen GPL-3.0-Text
-- App-Version wird beim Bauen aus der Spec übernommen
+- English:
+  - New page "About SailSCQ" (pull-down menu of the device list): version,
+    bundled OpenSCQ30 version, credits, license, links
+  - License page with the full GPL-3.0 text
+  - The app version is taken from the spec when building
+- Deutsch:
+  - Neue Seite "Über SailSCQ" (Pull-down-Menü der Geräteverwaltung): Version,
+    enthaltene OpenSCQ30-Version, Credits, Lizenz, Links
+  - Lizenzseite mit dem vollständigen GPL-3.0-Text
+  - App-Version wird beim Bauen aus der Spec übernommen
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.13-1
-- Fix: Ladezustand wurde nie erkannt (die CLI meldet "Yes"/"No", nicht "true"/"false");
-  auf der Geräteseite erscheint jetzt "lädt", in der Geräteinformation "Ja"/"Nein"
-- TWS-Status und Host-Gerät auf Deutsch (Verbunden/Getrennt, Links/Rechts)
+- English:
+  - Fix: the charging state was never detected (the CLI reports "Yes"/"No", not
+    "true"/"false"); the device page now shows "charging", the device
+    information "Yes"/"No"
+  - TWS status and host device in German (connected/disconnected, left/right)
+- Deutsch:
+  - Fix: Ladezustand wurde nie erkannt (die CLI meldet "Yes"/"No", nicht "true"/"false");
+    auf der Geräteseite erscheint jetzt "lädt", in der Geräteinformation "Ja"/"Nein"
+  - TWS-Status und Host-Gerät auf Deutsch (Verbunden/Getrennt, Links/Rechts)
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.12-1
-- Werte werden alle 2 Minuten automatisch aktualisiert, solange die App offen ist,
-  und sofort beim Zurückkehren in die App
-- Uhrzeit der letzten Abfrage unter den Akkuständen
-- Akkuleiste zeigt die Stufen des Geräts (z. B. 5 Segmente bei der Liberty 4 NC)
+- English:
+  - Values are refreshed automatically every 2 minutes while the app is open,
+    and right away when you return to the app
+  - Time of the last query below the battery levels
+  - The battery bar shows the device's levels (e.g. 5 segments on the Liberty 4 NC)
+- Deutsch:
+  - Werte werden alle 2 Minuten automatisch aktualisiert, solange die App offen ist,
+    und sofort beim Zurückkehren in die App
+  - Uhrzeit der letzten Abfrage unter den Akkuständen
+  - Akkuleiste zeigt die Stufen des Geräts (z. B. 5 Segmente bei der Liberty 4 NC)
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.11-1
-- Umbenannt in SailSCQ (Paket harbour-sailscq, ersetzt harbour-openscq30)
-- Eigener Organisationsname org.sailscq
-- Lizenz GPL-3.0-or-later hinzugefügt (LICENSE, SPDX-Vermerke, %license im RPM)
+- English:
+  - Renamed to SailSCQ (package harbour-sailscq, replaces harbour-openscq30)
+  - Own organization name org.sailscq
+  - License GPL-3.0-or-later added (LICENSE, SPDX notices, %license in the RPM)
+- Deutsch:
+  - Umbenannt in SailSCQ (Paket harbour-sailscq, ersetzt harbour-openscq30)
+  - Eigener Organisationsname org.sailscq
+  - Lizenz GPL-3.0-or-later hinzugefügt (LICENSE, SPDX-Vermerke, %license im RPM)
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.10-1
-- Neue Seite "Unterstützte Geräte" (Pull-down-Menü der Geräteverwaltung):
-  alle Modelle der installierten CLI, nach Bauform gruppiert, mit Suche
+- English:
+  - New page "Supported devices" (pull-down menu of the device list):
+    all models of the installed CLI, grouped by form factor, with search
+- Deutsch:
+  - Neue Seite "Unterstützte Geräte" (Pull-down-Menü der Geräteverwaltung):
+    alle Modelle der installierten CLI, nach Bauform gruppiert, mit Suche
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.9-1
-- openscq30-CLI auf v2.12.0 aktualisiert (GPG-Signatur des Entwicklers geprüft)
-- Neuer Einstellungstyp "hueColorPicker": Farbwahl für die Beleuchtung (Soundcore V20i)
-- Deutsche Namen für die neuen Einstellungen (Beleuchtung, Lautstärkebalance,
-  Hörmodus, Stopp-Timer, Wecker, ...)
-- Neue Modelle: V20i, Life P2 Mini, C50i, P31i, R60i NC, Sleep A30
-- tools/update-cli.sh braucht die GitHub-API nicht mehr und prüft die GPG-Signatur
+- English:
+  - openscq30 CLI updated to v2.12.0 (developer's GPG signature checked)
+  - New setting type "hueColorPicker": color selection for the lights (Soundcore V20i)
+  - German names for the new settings (lights, volume balance, listening mode,
+    stop timer, alarms, ...)
+  - New models: V20i, Life P2 Mini, C50i, P31i, R60i NC, Sleep A30
+  - tools/update-cli.sh no longer needs the GitHub API and checks the GPG signature
+- Deutsch:
+  - openscq30-CLI auf v2.12.0 aktualisiert (GPG-Signatur des Entwicklers geprüft)
+  - Neuer Einstellungstyp "hueColorPicker": Farbwahl für die Beleuchtung (Soundcore V20i)
+  - Deutsche Namen für die neuen Einstellungen (Beleuchtung, Lautstärkebalance,
+    Hörmodus, Stopp-Timer, Wecker, ...)
+  - Neue Modelle: V20i, Life P2 Mini, C50i, P31i, R60i NC, Sleep A30
+  - tools/update-cli.sh braucht die GitHub-API nicht mehr und prüft die GPG-Signatur
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.8-1
-- openscq30-CLI auf v2.9.0 aktualisiert (offizielles Release, SHA-256 geprüft)
-- Unterstützung für den neuen Einstellungstyp "multiSelectWithRemove":
-  Geräte der Doppelverbindung anzeigen und entfernen
-- Deutsche Namen für alle neuen Einstellungen von 2.9.0 (Ladehülle, Wischgesten,
-  Flugmodus, räumliches Audio, Gerät finden, ...)
-- Neue Modelle Soundcore Sport X20 und Liberty 4 Pro
-- tools/update-cli.sh lädt künftige CLI-Releases herunter und prüft sie
+- English:
+  - openscq30 CLI updated to v2.9.0 (official release, SHA-256 checked)
+  - Support for the new setting type "multiSelectWithRemove":
+    show and remove devices of the dual connection
+  - German names for all new settings of 2.9.0 (charging case, swipe gestures,
+    airplane mode, spatial audio, find device, ...)
+  - New models Soundcore Sport X20 and Liberty 4 Pro
+  - tools/update-cli.sh downloads future CLI releases and checks them
+- Deutsch:
+  - openscq30-CLI auf v2.9.0 aktualisiert (offizielles Release, SHA-256 geprüft)
+  - Unterstützung für den neuen Einstellungstyp "multiSelectWithRemove":
+    Geräte der Doppelverbindung anzeigen und entfernen
+  - Deutsche Namen für alle neuen Einstellungen von 2.9.0 (Ladehülle, Wischgesten,
+    Flugmodus, räumliches Audio, Gerät finden, ...)
+  - Neue Modelle Soundcore Sport X20 und Liberty 4 Pro
+  - tools/update-cli.sh lädt künftige CLI-Releases herunter und prüft sie
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.7-1
-- Oberfläche nach dem kompletten Mockup
-- Neue Gerätezeichnungen im Glas-Look (farbig mit Verlauf, Glanzkanten, Bodenreflex)
-- Fehlende deutsche Namen ergänzt (Lautstärkebegrenzung, Klangverlust-Ausgleich,
-  Berührungssperre, Trageton, Surround-Sound u. a.)
-- Kurzbeschreibungen unter einigen Schaltern (Game-Modus, Lautstärkebegrenzung)
-- Profil-Export als Textblock mit Kopieren-Knopf
-- Dialog "Neues Profil" mit Erklärung
-- Leere Geräteliste mit Zeichnung
-- Cover zeigt bei Lautsprechern "Akku"
+- English:
+  - User interface following the complete mockup
+  - New device illustrations in a glass look (colored with gradient, glossy edges,
+    floor reflection)
+  - Missing German names added (volume limit, sound leak compensation,
+    touch lock, wearing tone, surround sound and others)
+  - Short descriptions below some switches (gaming mode, volume limit)
+  - Profile export as a text block with a copy button
+  - "New profile" dialog with an explanation
+  - Empty device list with an illustration
+  - The cover shows "Battery" for speakers
+- Deutsch:
+  - Oberfläche nach dem kompletten Mockup
+  - Neue Gerätezeichnungen im Glas-Look (farbig mit Verlauf, Glanzkanten, Bodenreflex)
+  - Fehlende deutsche Namen ergänzt (Lautstärkebegrenzung, Klangverlust-Ausgleich,
+    Berührungssperre, Trageton, Surround-Sound u. a.)
+  - Kurzbeschreibungen unter einigen Schaltern (Game-Modus, Lautstärkebegrenzung)
+  - Profil-Export als Textblock mit Kopieren-Knopf
+  - Dialog "Neues Profil" mit Erklärung
+  - Leere Geräteliste mit Zeichnung
+  - Cover zeigt bei Lautsprechern "Akku"
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.6-1
-- Beim Start wird das zuletzt benutzte Gerät automatisch geöffnet
-- Ist es nicht erreichbar, wechselt die App zur Geräteverwaltung und zeigt einen Hinweis
+- English:
+  - On start the last used device is opened automatically
+  - If it cannot be reached, the app switches to the device list and shows a hint
+- Deutsch:
+  - Beim Start wird das zuletzt benutzte Gerät automatisch geöffnet
+  - Ist es nicht erreichbar, wechselt die App zur Geräteverwaltung und zeigt einen Hinweis
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.5-1
-- Cover funktioniert jetzt immer: die App merkt sich das zuletzt geöffnete Gerät
-  und das Cover verbindet sich selbst, sobald es im Startbildschirm sichtbar ist
-- Cover aktualisiert Akku und Sound-Modus höchstens einmal pro Minute
+- English:
+  - The cover now always works: the app remembers the last opened device
+    and the cover connects by itself as soon as it is visible on the home screen
+  - The cover refreshes battery and sound mode at most once a minute
+- Deutsch:
+  - Cover funktioniert jetzt immer: die App merkt sich das zuletzt geöffnete Gerät
+    und das Cover verbindet sich selbst, sobald es im Startbildschirm sichtbar ist
+  - Cover aktualisiert Akku und Sound-Modus höchstens einmal pro Minute
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.4-1
-- Cover: aktueller Sound-Modus wird angezeigt
-- Cover-Aktion zum Umschalten des Sound-Modus (Normal/Transparenz/ANC)
-- Cover: Akkustände kompakt in einer Zeile
+- English:
+  - Cover: the current sound mode is shown
+  - Cover action to switch the sound mode (normal/transparency/ANC)
+  - Cover: battery levels compact in one line
+- Deutsch:
+  - Cover: aktueller Sound-Modus wird angezeigt
+  - Cover-Aktion zum Umschalten des Sound-Modus (Normal/Transparenz/ANC)
+  - Cover: Akkustände kompakt in einer Zeile
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.3-4
-- Fix: Aktionsknöpfe mit langem Text (z. B. "Tasten auf Standardeinstellungen
-  zurücksetzen") waren breiter als der Bildschirm; jetzt umbrechende Aktionszeile
-- Knopfreihen nutzen ButtonLayout und brechen bei Platzmangel um
+- English:
+  - Fix: action buttons with long text (e.g. "Reset buttons to default
+    settings") were wider than the screen; now a wrapping action row
+  - Button rows use ButtonLayout and wrap when space is short
+- Deutsch:
+  - Fix: Aktionsknöpfe mit langem Text (z. B. "Tasten auf Standardeinstellungen
+    zurücksetzen") waren breiter als der Bildschirm; jetzt umbrechende Aktionszeile
+  - Knopfreihen nutzen ButtonLayout und brechen bei Platzmangel um
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.3-3
-- Fix: Akkuanzeige auf der Geräteseite blieb leer (QML-Selbstbindung)
-- Gerade nicht verfügbare Einstellungen werden übersprungen, statt das
-  Auslesen aller folgenden Werte abzubrechen
+- English:
+  - Fix: the battery display on the device page stayed empty (QML self-binding)
+  - Settings that are currently unavailable are skipped instead of aborting
+    the reading of all following values
+- Deutsch:
+  - Fix: Akkuanzeige auf der Geräteseite blieb leer (QML-Selbstbindung)
+  - Gerade nicht verfügbare Einstellungen werden übersprungen, statt das
+    Auslesen aller folgenden Werte abzubrechen
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.3-2
-- Fix: HighlightImage hat keine Eigenschaft "mipmap" (App startete ohne Oberfläche)
-- Icon-Cache nach Installation aktualisieren
+- English:
+  - Fix: HighlightImage has no property "mipmap" (the app started without a user interface)
+  - Refresh the icon cache after installation
+- Deutsch:
+  - Fix: HighlightImage hat keine Eigenschaft "mipmap" (App startete ohne Oberfläche)
+  - Icon-Cache nach Installation aktualisieren
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.3-1
-- Oberfläche nach Mockup: Gerätebilder je Bauform (In-Ear, Over-Ear, Lautsprecher)
-- Geräteseite mit großem Gerätebild und Akkuanzeige (links/rechts/Hülle)
-- Bauform wird auch bei gekoppelten Bluetooth-Geräten erkannt
-- Akkustände in Prozent statt "4/5"
+- English:
+  - User interface following the mockup: device images per form factor (in-ear,
+    over-ear, speaker)
+  - Device page with a large device image and battery display (left/right/case)
+  - The form factor is also detected for paired Bluetooth devices
+  - Battery levels in percent instead of "4/5"
+- Deutsch:
+  - Oberfläche nach Mockup: Gerätebilder je Bauform (In-Ear, Over-Ear, Lautsprecher)
+  - Geräteseite mit großem Gerätebild und Akkuanzeige (links/rechts/Hülle)
+  - Bauform wird auch bei gekoppelten Bluetooth-Geräten erkannt
+  - Akkustände in Prozent statt "4/5"
 
 * Thu Sep 24 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.2-1
-- C++-Backend (QProcess) statt nicht existierendem QML-Process-Typ
-- Korrekte CLI-Syntax (setting --get/--set) und JSON-Ausgabe
-- Generische Einstellungsseiten für alle von OpenSCQ30 unterstützten Modelle
-- Auswahl gekoppelter Bluetooth-Geräte über BlueZ
-- Sailjail-Berechtigung Bluetooth, deutsche Übersetzung
+- English:
+  - C++ backend (QProcess) instead of a QML Process type that does not exist
+  - Correct CLI syntax (setting --get/--set) and JSON output
+  - Generic settings pages for all models supported by OpenSCQ30
+  - Selection of paired Bluetooth devices via BlueZ
+  - Sailjail permission Bluetooth, German translation
+- Deutsch:
+  - C++-Backend (QProcess) statt nicht existierendem QML-Process-Typ
+  - Korrekte CLI-Syntax (setting --get/--set) und JSON-Ausgabe
+  - Generische Einstellungsseiten für alle von OpenSCQ30 unterstützten Modelle
+  - Auswahl gekoppelter Bluetooth-Geräte über BlueZ
+  - Sailjail-Berechtigung Bluetooth, deutsche Übersetzung
 
 * Wed Jul 01 2026 Denis Robel <12968052+denis-robel@users.noreply.github.com> 0.1-1
-- Erste Version
+- English:
+  - First version
+- Deutsch:
+  - Erste Version
